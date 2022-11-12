@@ -1,0 +1,49 @@
+@import 'base.css';
+
+.container-fluid {
+  padding: 0 405px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 62px;
+  color: var(--white);
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 59px;
+  color: var(--primary);
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+
+button {
+  padding: 18px 40px;
+  border: 1px solid white;
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 20px rgba(54, 45, 45, 0.25));
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+}
+button.primary {
+  background-color: var(--primary)!important;
+  color: var(--white);
+}
+button.secondary {
+  background-color: var(--secondary)!important;
+  color: var(--white);
+  border: none;
+  min-width: 168px;
+  box-shadow: 0px 4px 20px rgba(54, 45, 45, 0.25);
+}
