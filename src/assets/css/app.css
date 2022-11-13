@@ -1,7 +1,11 @@
 @import 'base.css';
 
+body {
+  background-color: var(--light-white);
+}
+
 .container-fluid {
-  padding: 0 405px;
+  padding: 0 350px;
 }
 
 h1 {
@@ -11,7 +15,6 @@ h1 {
   line-height: 62px;
   color: var(--white);
 }
-
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
@@ -19,11 +22,24 @@ h2 {
   line-height: 59px;
   color: var(--primary);
 }
-
-p {
+h3 {
   font-size: 20px;
-  line-height: 30px;
   font-weight: 600;
+  line-height: 30px;
+  color: var(--black);
+}
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 47px;
+  color: var(--black);
+}
+p {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 30px;
+  font-weight: 500;
 }
 
 

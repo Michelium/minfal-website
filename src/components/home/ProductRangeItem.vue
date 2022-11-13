@@ -10,33 +10,39 @@ defineProps({
 </script>
 
 <template>
-    <div class="card d-flex align-items-center">
-        <div class="d-flex justify-content-between">
-        <img :src="`src/assets/images/${image}`" alt="">
+    <div class="card">
+        <div class="card-body d-flex align-items-center">
+            <img :src="`src/assets/images/product-range-${image}`" :alt="title">
         </div>
         <div class="card-footer">
-            <p class="card-title"> {{ title }}</p>
+            <p class="card-title">{{ title }}</p>
         </div>
     </div>
 </template>
 
 <style scoped>
 .card {
-    background: #FFFFFF;
     border: none;
-    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    margin: 0 8px;
-    width: 100%;
     min-height: 300px;
-    text-align: center;
+    max-width: 210px;
+}
+.card-footer {
+    background-color: var(--light-white);
+    border-top: none;
 }
 p.card-title {
-    font-size: 24px;
+    font-size: 1.3rem;
     line-height: 30px;
     font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
 }
 img {
-    width: 150px;
+    width: 100%;
+    padding: 5%;
+    min-width: 100px;
 }
 </style>

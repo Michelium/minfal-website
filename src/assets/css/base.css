@@ -3,11 +3,7 @@
   --secondary: #96B37D;
   --white: #ffffff;
   --light-white: #FBFBFB;
-  --black: #000000;
-}
-
-body {
-  background-color: var(--light-white);
+  --black: #333333;
 }
 
 .bg-primary {
