@@ -8,7 +8,7 @@
                 <h3 class="text-center">Een Refill- of Circulair concept</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row refill-stations-row">
             <div class="col-12 col-lg-5">
                 <h4>Minfal Refill Stations</h4>
                 <dl>
@@ -45,10 +45,7 @@
 </template>
 
 <style scoped>
-.container {
-    margin-top: 260px;
-}
-.row:not(:first-of-type) {
+div.refill-stations-row {
     margin-bottom: 82px;
 }
 img {
