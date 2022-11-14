@@ -4,8 +4,10 @@ body {
   background-color: var(--light-white);
 }
 
-.container-fluid {
-  padding: 0 350px;
+@media (min-width: 992px) {
+  .container-fluid {
+    padding: 0 350px;
+  } 
 }
 
 h1 {
