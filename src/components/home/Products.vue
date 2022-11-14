@@ -15,7 +15,6 @@ import ProductDescription from './../icons/ProductDescription.vue'
                 <button class="secondary">Meer informatie</button>
             </div>
         </div>
-
     </div>
 </template>
 

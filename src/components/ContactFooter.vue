@@ -15,7 +15,7 @@ defineProps({
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-4 d-flex flex-column">
+            <div class="col-12 col-lg-4 d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start">
                 <h2>{{ title }}</h2>
                 <p class="w-75">{{ text }}</p>
                 <a href="https://www.linkedin.com/company/minfal-b-v/" target="_blank">

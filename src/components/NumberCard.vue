@@ -29,21 +29,33 @@ div.card {
     background-repeat: no-repeat;
     width: 100%;
     background-color: var(--primary);
-    padding: 38px 70px;
+    padding: 38px 36px;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     text-align: center;
 }
 p.card-title {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 60px;
     font-weight: 700;
     color: var(--white);
 }
 p.card-text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 600;
     color: var(--white);
+}
+
+@media (min-width: 992px) {
+    .card {
+        padding: 38px 70px;
+    }
+    p.card-title {
+        font-size: 30px;
+    }
+    p.card-text {
+        font-size: 18px;
+    }
 }
 </style>

@@ -31,16 +31,27 @@ div.card-item {
 p.card-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     color: var(--black);
 }
 p.card-text {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
 }
 button {
     margin-top: 87px;
+}
+
+@media (min-width: 992px) {
+    p.card-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    p.card-text {
+        font-size: 18px;
+        line-height: 26px;
+    }
 }
 </style>

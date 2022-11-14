@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
 import './assets/css/app.css'
+import './assets/css/responsive.css'
 
 const app = createApp(App)
 

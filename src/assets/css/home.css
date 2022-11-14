@@ -1,7 +1,7 @@
 section#hero {
     min-height: calc(100vh - 115px);
     position: relative;
-    margin-bottom: 60px;
+    overflow-x: hidden;
 }
 section#products {
     margin-bottom: 100px;
@@ -10,17 +10,23 @@ section#number-card {
     margin-bottom: 100px;
 }
 section#product-range {
-    margin-bottom: 260px;
+    margin-bottom: 75px;
 }
 section#sale-models {
-    margin-bottom: 160px;
+    margin-bottom: 60px;
 }
 section#partner-card {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+}
+section#contact-footer {
+    margin-bottom: 60px;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+    section#hero {
+        margin-bottom: 0;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/

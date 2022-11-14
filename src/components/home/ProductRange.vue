@@ -9,7 +9,7 @@ import ProductRangeItem from './ProductRangeItem.vue';
                 <h2>Ons volledige assortiment</h2>
             </div>
         </div>
-        <div class="cards-row mt-5">
+        <div class="cards-row mt-3 mt-lg-5">
             <ProductRangeItem title="Popcornbekers" image="popcornbekers.png"/>
             <ProductRangeItem title="Nacho Trays" image="nacho_trays.png"/>
             <ProductRangeItem title="Chipsbakjes" image="chipsbakjes.png"/>
@@ -32,9 +32,15 @@ button {
 div.cards-row {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
     column-gap: 10px;
     row-gap: 15px;
-    width: 100%;
+}
+
+@media (min-width: 992px) {
+    div.cards-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 </style>

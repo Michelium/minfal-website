@@ -25,8 +25,8 @@ defineProps({
     border: none;
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    min-height: 300px;
-    max-width: 210px;
+    width: 100%;
+    min-height: 320px;
 }
 .card-footer {
     background-color: var(--light-white);
@@ -42,7 +42,16 @@ p.card-title {
 }
 img {
     width: 100%;
-    padding: 5%;
     min-width: 100px;
+    padding: 15%;
+}
+
+@media (min-width: 992px) {
+    .card {
+        max-width: 210px;
+    }
+    img {
+    padding: 5%;
+    }
 }
 </style>

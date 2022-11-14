@@ -6,9 +6,9 @@ import PartnerCardItem from './PartnerCardItem.vue';
     <div class="container">
         <div class="card">
             <div class="row">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 d-flex flex-column">
                     <p class="card-title">Ga het avontuur aan met Minfal als betrouwbare partner.</p>
-                    <button class="secondary mt-4 mb-5 mb-lg-0">Over ons</button>
+                    <button class="secondary mt-4 mb-5 mb-lg-0 align-self-center align-self-lg-start">Over ons</button>
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="item-row">
@@ -51,8 +51,9 @@ div.card {
 p.card-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
     color: var(--white);
 }
 div.item-row {
@@ -66,6 +67,14 @@ div.item-row:first-of-type {
     div.item-row {
         flex-wrap: wrap;
         row-gap: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    p.card-title {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: left;
     }
 }
 </style>

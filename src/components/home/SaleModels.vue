@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="row refill-stations-row">
-            <div class="col-12 col-lg-5">
+            <div class="col-12 col-lg-5 order-last order-lg-first d-flex flex-column">
                 <h4>Minfal Refill Stations</h4>
                 <dl>
                     <dt>Een bezoeker koopt een herbruikbare popcornbeker en wordt eigenaar (neemt 'm mee naar huis)</dt>
@@ -18,9 +18,9 @@
                 <p>Het is een trend: korting op je refill. AMC Cinemas doet dit al jaren, net als Starbucks, Albert Heijn, Hema, Kiosk en nog véél meer andere bedrijven. Het zorgt voor klantenbinding, het is duurzaam en het sluit aan op de
                     zelfservice trend. Dit concept werkt voornamelijk bij de vaste bezoekers die jaarlijks meer dan tien keer langskomen.</p>
                 <p>Het kopen van een eigen popcornbeker is optioneel. Zo ligt de duurzame keuze bij de bezoeker. Het is een service dat de organisatie de duurzame optie aanbiedt.</p>
-                <button class="secondary">Meer over Minfal Refill</button>
+                <button class="secondary align-self-center align-self-lg-start">Meer over Minfal Refill</button>
             </div>
-            <div class="col-12 col-lg-7">
+            <div class="col-12 col-lg-7 order-first order-lg-last my-3 mt-lg-0">
                 <img src="@/assets/images/sale-models-refill-station.png" alt="Minfal Refill Stations">
             </div>
         </div>
@@ -28,7 +28,7 @@
             <div class="col-12 col-lg-7 pe-lg-5">
                 <img src="@/assets/images/sale-models-circulair.png" alt="Minfal Circulair">
             </div>
-            <div class="col-12 col-lg-5">
+            <div class="col-12 col-lg-5 d-flex flex-column">
                 <h4>Minfal Circulair</h4>
                 <dl>
                     <dt>Een bezoeker koopt popcorn zoals nu, maar ontvangt deze in herbruikbare popcornbeker)</dt>
@@ -38,7 +38,7 @@
                 <h5 class="sub-title">Ga voor circulair.</h5>
                 <p>Een volledig circulair verpakkingssysteem waarbij de popcornbekers intern gewassen worden zodat deze vervolgens hergebruikt kunnen worden.</p>
                 <p>Minfal creëert daarnaast een speciale vaatwasmachine-configuratie op maat, afhankelijk van uw situatie. De popcornbekers krijgen ook een speciaal ontwikkeld wasprogramma voor optimale reiniging.</p>
-                <button class="secondary">Ontdek Minfal Circulair</button>
+                <button class="secondary align-self-center align-self-lg-start">Ontdek Minfal Circulair</button>
             </div>
         </div>
     </div>
@@ -78,12 +78,19 @@ dl dt, dl dd {
     padding-left: 50px;
 }
 h5.sub-title {
-    font-size: 26px;
-    line-height: 39px;
+    font-size: 22px;
+    line-height: 33px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 button {
     margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+    h5.sub-title {
+        font-size: 26px;
+        line-height: 39px;
+    }
 }
 </style>
