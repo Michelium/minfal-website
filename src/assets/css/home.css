@@ -1,5 +1,6 @@
 section#hero {
     min-height: calc(100vh - 115px);
+    position: relative;
     margin-bottom: 60px;
 }
 section#products {

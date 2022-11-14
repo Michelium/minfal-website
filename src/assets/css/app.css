@@ -4,6 +4,9 @@ body {
   background-color: var(--light-white);
 }
 
+.container-fluid {
+  padding: 0 15px;  
+}
 @media (min-width: 992px) {
   .container-fluid {
     padding: 0 350px;
@@ -12,7 +15,7 @@ body {
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 54px;
+  font-size: clamp(27px, 4vw, 3em);
   font-weight: 700;
   line-height: 62px;
   color: var(--white);
