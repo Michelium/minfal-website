@@ -2,20 +2,17 @@ section#hero {
     position: relative;
     overflow-x: hidden;
 }
-section#personalities {
+section#sustainable-minfal {
     margin-bottom: 50px;
 }
-section#lean-startup {
-    margin-bottom: 60px;
+section#benefits {
+    margin-bottom: 358px;
 }
-section#challenge {
-    margin-bottom: 66px;
+section#product-range {
+    margin-bottom: 50px;
 }
-section#mission {
-    margin-bottom: 20px;
-}
-section#number-card {
-    margin-bottom: 60px;
+section#product-range-text {
+    margin-bottom: 142px;
 }
 section#contact-footer {
     margin-bottom: 60px;
@@ -31,20 +28,17 @@ section#contact-footer {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    section#personalities {
+    section#hero {
         margin-bottom: 70px;
     }
-    section#lean-startup {
-        margin-bottom: 90px;
+    section#benefits {
+        margin-bottom: 414px;
     }
-    section#challenge {
-        margin-bottom: 80px;
+    section#product-range {
+        margin-bottom: 160px;
     }
-    section#mission {
-        margin-bottom: 50px;
-    }
-    section#number-card {
-        margin-bottom: 100px;
+    section#product-range-text {
+        margin-bottom: 280px;
     }
 }
 

@@ -27,7 +27,7 @@ var menuToggle = ref(false);
                         <RouterLink class="router-link" to="/over-ons">Over ons</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="router-link" to="/">Popcornbeker</RouterLink>
+                        <RouterLink class="router-link" to="/popcornbeker">Popcornbeker</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="router-link" to="/">Refill</RouterLink>
@@ -155,7 +155,7 @@ nav ul.navbar-nav {
     color: var(--white);
     text-decoration: none;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 25px;
 }
 .router-link.router-link-exact-active {

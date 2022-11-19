@@ -17,17 +17,17 @@ import ContactFooter from "../components/ContactFooter.vue";
         <Personalities/>
     </section>
     <section id="lean-startup">
-        <TitleText 
-            title="Wij zijn een Lean-Startup."
-            text="Dat wil zeggen dat we onze producten mede ontwikkeld hebben met feedback vanuit de markt zelf, waardoor ons product perfect in de markt past."/>
+        <TitleText title="Wij zijn een Lean-Startup.">
+            <p>Dat wil zeggen dat we onze producten mede ontwikkeld hebben met feedback vanuit de markt zelf, waardoor ons product perfect in de markt past.</p>
+        </TitleText>
     </section>
     <section id="challenge">
         <Challenge/>
     </section>
     <section id="mission">
-        <TitleText 
-            title="Onze Missie."
-            text="Ons doel is het reduceren van verpakkingsafval in de amusementssector doormiddel van het ontwikkelen van herbruikbare verpakkingen en circulaire verpakkingssystemen."/>
+        <TitleText title="Onze Missie.">
+            <p>Ons doel is het reduceren van verpakkingsafval in de amusementssector doormiddel van het ontwikkelen van herbruikbare verpakkingen en circulaire verpakkingssystemen.</p>
+        </TitleText>
     </section>
     <section id="number-card">
         <NumberCard/>
