@@ -24,7 +24,7 @@ var menuToggle = ref(false);
                         <RouterLink class="router-link active" to="/">Home</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="router-link" to="/">Over ons</RouterLink>
+                        <RouterLink class="router-link" to="/over-ons">Over ons</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="router-link" to="/">Popcornbeker</RouterLink>

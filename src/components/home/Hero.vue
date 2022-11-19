@@ -68,7 +68,7 @@ button {
 @media (min-width: 992px) {
     .container-fluid {
         padding: 0 180px;
-        background-image: url("@/assets/images/header-desktop-vector.svg");
+        background-image: url("@/assets/vectors/header-desktop-vector.svg");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: top left;

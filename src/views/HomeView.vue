@@ -6,9 +6,9 @@ import ProductRange from "./../components/home/ProductRange.vue";
 import SaleModels from "./../components/home/SaleModels.vue";
 import PartnerCard from "../components/home/PartnerCard.vue";
 import ContactFooter from "../components/ContactFooter.vue";
-
-import '../assets/css/home.css'
 </script>
+
+<style scoped src="../assets/css/home.css"></style>
 
 <template>
     <section id="hero">

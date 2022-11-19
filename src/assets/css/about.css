@@ -1,0 +1,63 @@
+section#hero {
+    position: relative;
+    overflow-x: hidden;
+}
+section#personalities {
+    margin-bottom: 50px;
+}
+section#lean-startup {
+    margin-bottom: 60px;
+}
+section#challenge {
+    margin-bottom: 66px;
+}
+section#mission {
+    margin-bottom: 20px;
+}
+section#number-card {
+    margin-bottom: 60px;
+}
+section#contact-footer {
+    margin-bottom: 60px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    section#hero {
+        margin-bottom: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    section#hero {
+        
+    }
+    section#products {
+        margin-bottom: 100px;
+    }
+    section#number-card {
+        margin-bottom: 100px;
+    }
+    section#product-range {
+        margin-bottom: 260px;
+    }
+    section#sale-models {
+        margin-bottom: 160px;
+    }
+    section#partner-card {
+        margin-bottom: 100px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
