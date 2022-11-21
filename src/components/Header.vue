@@ -6,40 +6,43 @@ import {RouterLink} from "vue-router";
 import {ref} from "vue";
 
 var menuToggle = ref(false);
+var w = window;
 </script>
 
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Fifth navbar example">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <Logo/>
-            </a>
-            <button @click="menuToggle  = !menuToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation">
+            <RouterLink class="router-link" to="/">
+                <a class="navbar-brand" href="/">
+                    <Logo/>
+                </a>
+            </RouterLink>
+            <button @click="menuToggle  = !menuToggle" ref="hamburgerToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation">
                 <Hamburger v-if="!menuToggle" id="hamburger"/>
                 <Close  v-if="menuToggle" id="close"/>
             </button>
             <div class="navbar-collapse collapse" id="navbar" style="">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <RouterLink class="router-link active" to="/">Home</RouterLink>
+                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                        <RouterLink class="router-link" to="/">Home</RouterLink>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
                         <RouterLink class="router-link" to="/over-ons">Over ons</RouterLink>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
                         <RouterLink class="router-link" to="/popcornbeker">Popcornbeker</RouterLink>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
                         <RouterLink class="router-link" to="/minfal-refill">Refill</RouterLink>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
                         <RouterLink class="router-link" to="/minfal-circulair">Circulair</RouterLink>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
                         <RouterLink class="router-link" to="/producten">Producten</RouterLink>
                     </li>
-                    <li class="nav-item">
-                        <RouterLink class="router-link" to="/about">
+                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                        <RouterLink class="router-link" to="/contact">
                             <button class="primary text-uppercase">Contact</button>
                         </RouterLink>
                     </li>
@@ -50,6 +53,9 @@ var menuToggle = ref(false);
 </template>
 
 <style scoped>
+.navbar-collapse {
+    transition: .2s;    
+}
 
 /* Define the shape and color of the hamburger lines */
 .navbar-toggler span {
@@ -158,7 +164,15 @@ nav ul.navbar-nav {
     font-weight: 500;
     line-height: 25px;
 }
+.router-link button {
+    transition: .2s;
+}
 .router-link.router-link-exact-active {
     font-weight: 800;
+}
+.router-link.router-link-exact-active button {
+    color: var(--white);
+    background-color: var(--secondary)!important;
+    border: none;
 }
 </style>

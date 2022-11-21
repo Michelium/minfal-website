@@ -12,7 +12,7 @@ defineProps({
 <template>
     <div class="card">
         <div class="card-body d-flex align-items-center">
-            <img :src="`src/assets/images/product-range-${image}`" :alt="title">
+            <img :src="`/src/assets/images/product-range-${image}`" :alt="title">
         </div>
         <div class="card-footer">
             <p class="card-title">{{ title }}</p>

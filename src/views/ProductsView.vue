@@ -3,7 +3,6 @@ import Hero from "../components/Hero.vue";
 import TitleText from "../components/TitleText.vue";
 import TwoColumnTextImage from "../components/TwoColumnTextImage.vue";
 import ContactFooter from "../components/ContactFooter.vue";
-import Bullets from "../components/circulair/Bullets.vue";
 import Products from "../components/products/Products.vue";
 </script>
 

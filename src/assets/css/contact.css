@@ -1,0 +1,36 @@
+section#hero {
+    position: relative;
+    overflow-x: hidden;
+}
+section#intro {
+    margin-bottom: 50px;
+}
+section#form {
+    margin-bottom: 100px;
+}
+section#info {
+    margin-bottom: 50px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    section#hero {
+        margin-bottom: 70px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}

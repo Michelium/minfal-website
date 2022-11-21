@@ -30,7 +30,7 @@ defineProps({
             </div>
         </div>
         <div class="row" v-else>
-            <div class="col-12 text-center" :class="[imageBigger ? 'col-lg-7' : 'col-lg-6']">
+            <div class="col-12 text-center d-flex justify-content-center flex-column" :class="[imageBigger ? 'col-lg-7' : 'col-lg-6']">
                 <img :src="image" :alt="imageLabel"/>
                 <strong>{{ imageLabel }}</strong>
             </div>
