@@ -32,7 +32,7 @@ const imagePath = computed(() => {
                 <slot></slot>
             </div>
             <div class="col-12 text-center order-first order-lg-last mb-4 mb-lg-0" :class="[imageBigger ? 'col-lg-7' : 'col-lg-5']">
-                <img :src="image" :alt="imageLabel"/>
+                <img :src="imagePath" :alt="imageLabel"/>
                 <strong>{{ imageLabel }}</strong>
             </div>
         </div>
