@@ -1,5 +1,7 @@
 <script setup>
-defineProps({
+import {defineProps} from "vue";
+
+const props = defineProps({
     image: {
         type: String,
     },
@@ -9,27 +11,32 @@ defineProps({
     imageFirst: {
         type: Boolean,
         default: false,
+    },
+    imageBigger: {
+        type: Boolean,
+        default: true,
     }
 })
+
 </script>
 
 <template>
     <div class="container">
         <div class="row" v-if="imageFirst === false">
-            <div class="col-12 col-lg-5 pe-lg-5 order-last order-lg-first">
+            <div class="col-12 pe-lg-5 order-last order-lg-first" :class="[imageBigger ? 'col-lg-5' : 'col-lg-6']">
                 <slot></slot>
             </div>
-            <div class="col-12 col-lg-7 text-center order-first order-lg-last mb-4 mb-lg-0">
+            <div class="col-12 text-center order-first order-lg-last mb-4 mb-lg-0" :class="[imageBigger ? 'col-lg-7' : 'col-lg-5']">
                 <img :src="image" :alt="imageLabel"/>
                 <strong>{{ imageLabel }}</strong>
             </div>
         </div>
         <div class="row" v-else>
-            <div class="col-12 col-lg-7 text-center">
+            <div class="col-12 text-center" :class="[imageBigger ? 'col-lg-7' : 'col-lg-6']">
                 <img :src="image" :alt="imageLabel"/>
                 <strong>{{ imageLabel }}</strong>
             </div>
-            <div class="col-12 col-lg-5 ps-lg-5 order-last">
+            <div class="col-12 ps-lg-5 order-last" :class="[imageBigger ? 'col-lg-5' : 'col-lg-6']">
                 <slot></slot>
             </div>
         </div>

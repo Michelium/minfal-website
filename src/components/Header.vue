@@ -33,7 +33,7 @@ var menuToggle = ref(false);
                         <RouterLink class="router-link" to="/minfal-refill">Refill</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="router-link" to="/">Circulair</RouterLink>
+                        <RouterLink class="router-link" to="/minfal-circulair">Circulair</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="router-link" to="/">Producten</RouterLink>
