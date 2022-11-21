@@ -1,5 +1,7 @@
 <script setup>
-defineProps({
+import {computed} from "vue";
+
+const props = defineProps({
     title: {
         type: String,
     },
@@ -7,12 +9,17 @@ defineProps({
         type: String,
     }
 })
+
+const imagePath = computed(() => {
+    return new URL(`/src/assets/images/product-range-${props.image}`,
+        import.meta.url).href
+});
 </script>
 
 <template>
     <div class="card">
         <div class="card-body d-flex align-items-center">
-            <img :src="`/src/assets/images/product-range-${image}`" :alt="title">
+            <img :src="imagePath" :alt="title">
         </div>
         <div class="card-footer">
             <p class="card-title">{{ title }}</p>

@@ -1,5 +1,7 @@
 <script setup>
-defineProps({
+import {computed} from "vue";
+
+const props = defineProps({
     image: {
         type: String,
     },
@@ -16,6 +18,11 @@ defineProps({
     }
 })
 
+const imagePath = computed(() => {
+    return new URL(props.image,
+        import.meta.url).href
+});
+
 </script>
 
 <template>
@@ -31,7 +38,7 @@ defineProps({
         </div>
         <div class="row" v-else>
             <div class="col-12 text-center d-flex justify-content-center flex-column" :class="[imageBigger ? 'col-lg-7' : 'col-lg-6']">
-                <img :src="image" :alt="imageLabel"/>
+                <img :src="imagePath" :alt="imageLabel"/>
                 <strong>{{ imageLabel }}</strong>
             </div>
             <div class="col-12 ps-lg-5 order-last" :class="[imageBigger ? 'col-lg-5' : 'col-lg-6']">
