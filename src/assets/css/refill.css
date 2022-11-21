@@ -1,0 +1,58 @@
+section#hero {
+    position: relative;
+    overflow-x: hidden;
+}
+section#minfal-refill-stations {
+    margin-bottom: 50px;
+}
+section#benefits {
+    margin-bottom: 80px;
+}
+section#types {
+    margin-bottom: 60px;
+}
+section#contact-footer {
+    margin-bottom: 60px;
+}
+
+ul li {
+    list-style-image: url("@/assets/vectors/list-style-image.svg");
+    padding-left: 12px;
+    margin-bottom: 18px;
+}
+ul li span {
+    position: relative;
+    top: -4.5px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    section#hero {
+        margin-bottom: 70px;
+    }
+    section#minfal-refill-stations {
+        margin-bottom: 50px;
+    }
+    section#benefits {
+        margin-bottom: 80px;
+    }
+    section#types {
+        margin-bottom: 100px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
