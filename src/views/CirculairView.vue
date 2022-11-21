@@ -22,7 +22,7 @@ import Bullets from "../components/circulair/Bullets.vue";
         <Bullets/>
     </section>
     <section id="collection-station">
-        <TwoColumnTextImage image="/src/assets/images/circulair-collection-stations.png" :imageFirst="true" :imageBigger="false">
+        <TwoColumnTextImage image="circulair-collection-stations.png" :imageFirst="true" :imageBigger="false">
             <h2 class="mt-4 mt-lg-0">Inzamelstations</h2>
             <p>Minfal levert zelf ontwikkelde inzamelstations bij Minfal Circulair. Bezoekers kunnen de herbruikbare popcornbekers hier inleveren na gebruik. Deze inzamelstations worden vervolgens geleegd zodat de verpakking gereinigd kunnen
                 worden.</p>
@@ -31,7 +31,7 @@ import Bullets from "../components/circulair/Bullets.vue";
         </TwoColumnTextImage>
     </section>
     <section id="dishwasher">
-        <TwoColumnTextImage image="/src/assets/images/circulair-dishwasher.png" :imageFirst="false" :imageBigger="false">
+        <TwoColumnTextImage image="circulair-dishwasher.png" :imageFirst="false" :imageBigger="false">
             <h2 class="mt-4 mt-lg-0">Industriële vaatwasmachine</h2>
             <p>Om de herbruikbare verpakkingen te reinigen wordt (optioneel) een industriële vaatwasmachine meegeleverd. Minfal werkt samen met een fabrikant van industriële vaatwasmachine's die uitermate geschikt zijn voor de herbruikbare popcornbekers.</p>
             <p>De vaatwasmachine's zijn er van klein naar groot. Zo zijn er voorladers (net als in de keuken thuis), maar ook doorschuif- en transportmachines.</p>

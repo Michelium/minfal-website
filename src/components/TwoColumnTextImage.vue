@@ -19,7 +19,7 @@ const props = defineProps({
 })
 
 const imagePath = computed(() => {
-    return new URL(props.image,
+    return new URL(`/src/assets/images/${props.image}`,
         import.meta.url).href
 });
 

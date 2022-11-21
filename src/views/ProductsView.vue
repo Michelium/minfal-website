@@ -27,7 +27,7 @@ import Products from "../components/products/Products.vue";
         <Products/>
     </section>
     <section id="nacho-trays">
-        <TwoColumnTextImage image="/src/assets/images/products-nacho-trays.png" :image-first="true" :image-bigger="false">
+        <TwoColumnTextImage image="products-nacho-trays.png" :image-first="true" :image-bigger="false">
             <h2 class="mt-5  mt-lg-0">Nacho trays en chipsbakjes<br> (maatwerk)</h2>
             <p>Wij bieden ook unieke herbruikbare nacho-bakjes aan. Volledig herbruikbaar en passend in een circulair verpakkingssysteem.</p>
             <p>Wij bieden ook unieke herbruikbare nacho-bakjes aan. Volledig herbruikbaar en passend in een circulair verpakkingssysteem.</p>
@@ -42,7 +42,7 @@ import Products from "../components/products/Products.vue";
         </TwoColumnTextImage>
     </section>
     <section id="soft-drink">
-        <TwoColumnTextImage image="/src/assets/images/products-soft-drink.png" :image-bigger="false">
+        <TwoColumnTextImage image="products-soft-drink.png" :image-bigger="false">
             <h2 class="mt-4 mt-lg-0">Frisdrank- en koffiebekers</h2>
             <p>Onze herbruikbare frisdrank- en koffiebekers zijn er in de volgende maten:</p>
             <div class="row mb-4">

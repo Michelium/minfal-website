@@ -17,7 +17,7 @@ import ContactForm from "../components/ContactForm.vue";
         </TitleText>
     </section>
     <section id="form">
-        <TwoColumnTextImage image="/src/assets/images/contact-building.png" :image-first="true" :image-bigger="false">
+        <TwoColumnTextImage image="contact-building.png" :image-first="true" :image-bigger="false">
             <ContactForm :full-colls="true"/>
         </TwoColumnTextImage>
     </section>
@@ -25,7 +25,7 @@ import ContactForm from "../components/ContactForm.vue";
         <div class="container d-lg-none">
             <h2 class="mb-4">Contact</h2>
         </div>
-        <TwoColumnTextImage image="/src/assets/images/contact-map.png" :image-bigger="false">
+        <TwoColumnTextImage image="contact-map.png" :image-bigger="false">
             <h2 class="d-none d-lg-block mb-4">Contact</h2>
             <h4>Adres:</h4>
             <p class="mb-0">Turfschipper 62</p>

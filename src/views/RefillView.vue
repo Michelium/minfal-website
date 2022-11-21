@@ -18,7 +18,7 @@ import ContactFooter from "../components/ContactFooter.vue";
         </TitleText>
     </section>
     <section id="benefits">
-        <TwoColumnTextImage image="/src/assets/images/refill-benefits.png" image-label="Impressie schets">
+        <TwoColumnTextImage image="refill-benefits.png" image-label="Impressie schets">
             <h4>Voordelen van een Refill Station.</h4>
             <ul class="mt-4">
                 <li><span>In combinatie met herbruikbare popcornbekers en andere herbruikbare producten van Minfal</span></li>
@@ -34,7 +34,7 @@ import ContactFooter from "../components/ContactFooter.vue";
         </TwoColumnTextImage>
     </section>
     <section id="types">
-        <TwoColumnTextImage image="/src/assets/images/refill-types.png" image-label="Impressie schets" :imageFirst="true">
+        <TwoColumnTextImage image="refill-types.png" image-label="Impressie schets" :imageFirst="true">
             <h4 class="mt-4">Verschillende types.</h4>
             <p>De Refill Stations zijn er in allerlei groottes en types. Op basis van de grootte van uw locatie en uw popcornverkopen adviseert Minfal een bepaald type machine.
                 Er zijn ook verschillende soorten opvangbakken voor onder de dispensers.</p>
