@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import PopcornView from '../views/PopcornView.vue'
 import RefillView from '../views/RefillView.vue'
 import CirculairView from '../views/CirculairView.vue'
+import ProductsView from '../views/ProductsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,7 +16,7 @@ const router = createRouter({
     },
     {
       path: '/over-ons',
-      name: 'about',
+      name: 'over-ons',
       component: AboutView,
     },
     {
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/minfal-circulair',
       name: 'minfal-circulair',
       component: CirculairView,
+    },
+    {
+      path: '/producten',
+      name: 'producten',
+      component: ProductsView,
     }
   ]
 })

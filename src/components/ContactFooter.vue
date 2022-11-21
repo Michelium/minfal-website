@@ -8,6 +8,7 @@ defineProps({
     },
     textareaLabel: {
         type: String,
+        default: 'Bericht',
     }
 })
 </script>
@@ -43,7 +44,7 @@ defineProps({
                             <input class="form-control" type="tel" v-model="phone" id="phone">
                         </div>
                         <div class="col-12">
-                            <label for="message">Bericht</label>
+                            <label for="message">{{ textareaLabel }}</label>
                             <textarea class="form-control" rows="3" v-model="message" id="message" required></textarea>
                         </div>
                         <div class="col-12">

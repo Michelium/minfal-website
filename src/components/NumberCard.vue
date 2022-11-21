@@ -48,7 +48,7 @@ p.card-text {
 }
 
 @media (min-width: 992px) {
-    .card {
+    div.card {
         padding: 38px 70px;
     }
     p.card-title {

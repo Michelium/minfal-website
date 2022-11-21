@@ -1,0 +1,98 @@
+section#hero {
+    position: relative;
+    overflow-x: hidden;
+}
+section#intro {
+    margin-bottom: 50px;
+}
+section#popcornbekers {
+    margin-bottom: 80px;
+}
+section#products {
+    margin-bottom: 140px;
+}
+section#nacho-trays {
+    margin-bottom: 70px;
+}
+section#soft-drink {
+    margin-bottom: 70px;
+}
+section#soft-drink .card {
+    background: #FFFFFF;
+    box-shadow: 2px 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+section#soft-drink .card .card-header {
+    font-family: 'Oswald', sans-serif;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 7px 0;
+    border-bottom: none;
+}
+section#soft-drink table tr {
+    border-bottom: 1px solid #EEEEEE;
+}
+section#soft-drink table th {
+    padding: 11px 0 11px 22px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+}
+section#soft-drink table td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+section#contact-footer {
+    margin-bottom: 60px;
+}
+
+ul li {
+    list-style-image: url("@/assets/vectors/list-style-image.svg");
+    padding-left: 12px;
+    margin-bottom: 18px;
+}
+ul li span {
+    position: relative;
+    top: -4.5px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    section#hero {
+        margin-bottom: 70px;
+    }
+    section#circulair {
+        margin-bottom: 100px;
+    }
+    section#collection-station{
+        margin-bottom: 100px;
+    }
+    section#dishwasher {
+        margin-bottom: 100px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
