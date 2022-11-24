@@ -34,6 +34,10 @@ const imagePath = computed(() => {
     border-radius: 20px;
     width: 100%;
     min-height: 320px;
+    margin-bottom: 20px;
+}
+.card-body {
+    padding: 5px;
 }
 .card-footer {
     background-color: var(--light-white);
@@ -50,15 +54,14 @@ p.card-title {
 img {
     width: 100%;
     min-width: 100px;
-    padding: 15%;
 }
 
 @media (min-width: 992px) {
     .card {
-        max-width: 210px;
+        min-width: 210px;
     }
     img {
-    padding: 5%;
+    /*padding: 5%;*/
     }
 }
 </style>

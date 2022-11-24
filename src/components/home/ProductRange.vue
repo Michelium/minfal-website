@@ -6,15 +6,25 @@ import ProductRangeItem from './ProductRangeItem.vue';
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Ons volledige assortiment</h2>
+                <h2>Ons volledige herbruikbare assortiment</h2>
             </div>
         </div>
-        <div class="cards-row mt-3 mt-lg-5">
-            <ProductRangeItem title="Popcornbekers" image="popcornbekers.png"/>
-            <ProductRangeItem title="Nacho Trays" image="nacho_trays.png"/>
-            <ProductRangeItem title="Chipsbakjes" image="chipsbakjes.png"/>
-            <ProductRangeItem title="Frisdrankbekers" image="frisdrankbekers.png"/>
-            <ProductRangeItem title="Koffiebekers" image="koffiebekers.png"/>
+        <div class="row mt-3 mt-lg-5">
+            <div class="col">
+                <ProductRangeItem title="Popcornbekers" image="popcornbekers.png"/>
+            </div>
+            <div class="col">
+                <ProductRangeItem title="Nacho Trays" image="nacho_trays.png"/>
+            </div>
+            <div class="col">
+                <ProductRangeItem title="Chipsbakjes" image="chipsbakjes.png"/>
+            </div>
+            <div class="col">
+                <ProductRangeItem title="Frisdrankbekers" image="frisdrankbekers.png"/>
+            </div>
+            <div class="col">
+                <ProductRangeItem title="Koffiebekers" image="koffiebekers.png"/>
+            </div>
         </div>
         <button class="secondary">Bekijk het assortiment</button>
     </div>
@@ -29,18 +39,7 @@ import ProductRangeItem from './ProductRangeItem.vue';
 button {
     margin-top: 70px;
 }
-div.cards-row {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    column-gap: 10px;
-    row-gap: 15px;
-}
 
 @media (min-width: 992px) {
-    div.cards-row {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 }
 </style>

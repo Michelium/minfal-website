@@ -93,7 +93,7 @@ button {
 }
 @media (min-width: 1400px) {
     .container-fluid {
-        background-position: top -20vh left;
+        background-position: top -114px left;
     }
 }
 </style>
