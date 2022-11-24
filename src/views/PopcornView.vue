@@ -14,6 +14,7 @@ import ContactFooter from "../components/ContactFooter.vue";
         <Hero title="Popcornbeker"/>
     </section>
     <section id="sustainable-minfal">
+        <div class="vector"></div>
         <TitleText title="Ga voor duurzaam met Minfal">
             <p>Onze herbruikbare popcornbekers.</p>
             <p>Vervang wegwerpverpakkingen voor de herbruikbare popcornbekers van Minfal. Hiermee boost u uw duurzaamheidsimago en kunt u besparen op verpakkingskosten. Een uniek en iconisch product, maar dan duurzaam.</p>

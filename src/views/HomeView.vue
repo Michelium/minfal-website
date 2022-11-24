@@ -12,6 +12,7 @@ import ContactFooter from "../components/ContactFooter.vue";
 
 <template>
     <section id="hero">
+        <div class="waves"></div>
         <Hero/>
     </section>
     <section id="products">
@@ -30,6 +31,7 @@ import ContactFooter from "../components/ContactFooter.vue";
         <PartnerCard/>
     </section>
     <section id="contact-footer">
+        <div class="waves"></div>
         <ContactFooter
             title="Laten we beginnen!"
             text="We komen graag op bezoek om vrijblijvend de mogelijkheden te bespreken."

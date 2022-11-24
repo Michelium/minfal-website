@@ -10,7 +10,7 @@
         </h1>
         <button class="secondary">Meer</button>
         <div class="card">
-            <!--            <img src="@/assets/images/home-hero-main-image.png" alt="">-->
+            <div class="background-image d-none d-lg-block"></div>
         </div>
     </div>
 </template>
@@ -56,6 +56,17 @@ button {
     background-size: 80% 80%;
     object-fit: contain;
     margin: 2% 10px 25px 10px;
+}
+.background-image {
+    position: absolute;
+    background-image: url("@/assets/vectors/popcornbeker.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 227px 250px;
+    background-position: bottom 30px left;
+    left: -130px;
+    z-index: -1;
 }
 
 @media (min-width: 576px) {

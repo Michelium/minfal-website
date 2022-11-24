@@ -39,7 +39,4 @@ import ProductRangeItem from './ProductRangeItem.vue';
 button {
     margin-top: 70px;
 }
-
-@media (min-width: 992px) {
-}
 </style>

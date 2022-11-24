@@ -22,6 +22,7 @@ import ContactFooter from "../components/ContactFooter.vue";
         </TitleText>
     </section>
     <section id="challenge">
+        <div class="vector"></div>
         <Challenge/>
     </section>
     <section id="mission">

@@ -42,6 +42,7 @@ h1 {
         background-image: url("@/assets/vectors/hero-desktop.svg");
         background-repeat: no-repeat;
         background-position: top -115px center;
+        background-size: cover;
     }
     
     .mobile-header-vector {
@@ -50,6 +51,13 @@ h1 {
     
     h1 {
         margin-top: 40px;
+    }
+}
+
+@media (min-width: 1921px) {
+    .container-fluid {
+        min-height: calc(550px - 115px);
+        background-position: top -200px center;
     }
 }
 </style>

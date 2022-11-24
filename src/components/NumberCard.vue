@@ -3,6 +3,7 @@
 <template>
     <div class="container">
         <div class="card">
+            <img class="vector" src="@/assets/vectors/six-squares.png" alt="vector">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <p class="card-title">10 mln</p>
@@ -23,8 +24,8 @@
 
 <style scoped>
 div.card {
-    background-image: url("@/assets/images/number-card-background.png");
-    background-position: center;
+    background-image: url("@/assets/images/number-card-background.png"), url("@/assets/vectors/six-squares.png");
+    background-position: center, top right;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -46,6 +47,13 @@ p.card-text {
     font-weight: 600;
     color: var(--white);
 }
+img.vector {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: -18px;
+    left: -7px;
+}
 
 @media (min-width: 992px) {
     div.card {
@@ -57,5 +65,12 @@ p.card-text {
     p.card-text {
         font-size: 18px;
     }
+    img.vector {
+        width: 80px;
+        height: 80px;
+        top: -38px;
+        left: -27px;
+    }
+
 }
 </style>

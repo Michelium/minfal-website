@@ -3,8 +3,9 @@
 <template>
     <div class="container">
         <div class="row mx-0">
-            <div class="col-12 text-center px-0">
-                <img class="banner" src="@/assets/images/about-cinema-banner.jpg" alt="Bioscoop banner Daniel en Leendert-Jan">
+            <div class="col-12 text-center px-0 position-relative">
+                <img class="d-none d-lg-block vector" src="@/assets/vectors/popcornbeker.png" alt="Vector">
+                <img class="banner" src="@/assets/images/about-cinema-banner.png" alt="Bioscoop banner Daniel en Leendert-Jan">
             </div>
         </div>
         <div class="row mx-0 mt-5">
@@ -61,4 +62,15 @@ p {
     max-height: 118px;
     margin-right: 17px;
 }
+@media (min-width: 992px) {
+    img.vector {
+        position: absolute;
+        z-index: -1;
+        width: 253px;
+        height: 280px;
+        top: -10px;
+        left: -215px;
+    }
+}
+
 </style>

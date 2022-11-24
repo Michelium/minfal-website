@@ -5,6 +5,7 @@ import PartnerCardItem from './PartnerCardItem.vue';
 <template>
     <div class="container">
         <div class="card">
+            <img class="vector" src="@/assets/vectors/six-squares.png" alt="vector">
             <div class="row">
                 <div class="col-12 col-lg-4 d-flex flex-column">
                     <p class="card-title">Ga het avontuur aan met Minfal als betrouwbare partner.</p>
@@ -63,6 +64,14 @@ div.item-row {
 div.item-row:first-of-type {
     margin-bottom: 25px;
 }
+
+img.vector {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    bottom: -18px;
+    right: -7px;
+}
 @media screen and (max-width: 768px) {
     div.item-row {
         flex-wrap: wrap;
@@ -75,6 +84,12 @@ div.item-row:first-of-type {
         font-size: 40px;
         line-height: 50px;
         text-align: left;
+    }
+    img.vector {
+        width: 80px;
+        height: 80px;
+        bottom: -38px;
+        right: -39px;
     }
 }
 </style>

@@ -6,7 +6,7 @@ section#sustainable-minfal {
     margin-bottom: 50px;
 }
 section#benefits {
-    margin-bottom: 358px;
+    margin-bottom: 150px;
 }
 section#product-range {
     margin-bottom: 50px;
@@ -31,14 +31,56 @@ section#contact-footer {
     section#hero {
         margin-bottom: 70px;
     }
+    section#sustainable-minfal {
+        position: relative;
+    }
+    section#sustainable-minfal .vector {
+        position: absolute;
+        background-image: url("./../vectors/popcornbeker.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 205px;
+        height: 227px;
+        top: -60px;
+    }
     section#benefits {
-        margin-bottom: 414px;
+        background-image: url("./../vectors/waves.svg");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 214px 96px;
+        margin-bottom: 0;
     }
     section#product-range {
-        margin-bottom: 160px;
+        padding-top: 414px;
+        padding-bottom: 160px;
+        margin-bottom: 0;
+        background-image: 
+                url("./../vectors/striped-circle.png"),
+                url("./../vectors/popcorn-popcornbeker-drink.png"),
+                url("./../vectors/popcorn-popcornbeker.png"),
+                url("./../vectors/popcorn-product-range-top.png");
+        background-size:
+                200px 200px,
+                auto 172px,
+                auto 325px,
+                contain;
+        background-repeat: no-repeat;
+        background-position: 
+                top 20% right,
+                top 50% left 5%,
+                top 75% right 5%,
+                top left;
     }
     section#product-range-text {
-        margin-bottom: 280px;
+        padding-bottom: 500px;
+        background-image: url("./../vectors/popcorn-product-range-text.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top
+    }
+    section#contact-footer {
+        margin-top: -400px;
     }
 }
 
@@ -48,4 +90,7 @@ section#contact-footer {
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+    section#contact-footer {
+        margin-top: -250px;
+    }
 }

@@ -10,6 +10,20 @@ section#lean-startup {
 }
 section#challenge {
     margin-bottom: 66px;
+    position: relative;
+}
+section#challenge .vector {
+    overflow-x: hidden;
+    overflow-y: visible;
+    position: absolute;
+    width: 100vw;
+    height: 915px;
+    top: 580px;
+    z-index: -1;
+    background-image: url("./../vectors/about-challenge-left.png");
+    background-repeat: no-repeat;
+    background-position: top left; 
+    background-size: contain;
 }
 section#mission {
     margin-bottom: 20px;
@@ -31,14 +45,28 @@ section#contact-footer {
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    section#hero {
+        margin-bottom: 40px;
+    }
     section#personalities {
         margin-bottom: 70px;
+        background-image: url("./../vectors/waves.svg"), url("./../vectors/grey-triangle.svg");
+        background-repeat: no-repeat;
+        background-position: center right, bottom left 15px;
+        background-size: 214px 96px, 211px 183px;
     }
     section#lean-startup {
         margin-bottom: 90px;
     }
     section#challenge {
         margin-bottom: 80px;
+    }
+    section#challenge .vector {
+        top: 120px;
+        background-image: url("./../vectors/about-challenge-left.png"), url("./../vectors/striped-circle.png");
+        background-repeat: no-repeat;
+        background-position: top left, center right -15px;
+        background-size: contain, 200px 200px;
     }
     section#mission {
         margin-bottom: 50px;

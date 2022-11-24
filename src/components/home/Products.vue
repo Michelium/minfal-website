@@ -35,4 +35,13 @@ button {
     margin-top: 35px;
 }
 
+@media (min-width: 992px) {
+    img {
+        background-image: url("@/assets/vectors/14-squares.png");
+        background-repeat: no-repeat;
+        background-size: 98px 188px;
+        background-position: top right;
+    }
+}
+
 </style>
