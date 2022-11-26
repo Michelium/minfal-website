@@ -25,6 +25,7 @@ import ContactForm from "../components/ContactForm.vue";
     </section>
     <section id="info">
         <div class="vector"></div>
+        <div class="background-vector"></div>
         <div class="container d-lg-none">
             <h2 class="mb-4">Contact</h2>
         </div>
