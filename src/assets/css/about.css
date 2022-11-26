@@ -67,6 +67,7 @@ section#contact-footer {
         background-repeat: no-repeat;
         background-position: top left, center right -15px;
         background-size: contain, 200px 200px;
+        max-width: 99vw;
     }
     section#mission {
         margin-bottom: 50px;
