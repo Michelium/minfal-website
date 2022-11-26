@@ -12,6 +12,8 @@ import ContactForm from "../components/ContactForm.vue";
         <Hero title="Contact"/>
     </section>
     <section id="intro">
+        <div class="vector"></div>
+        <div class="vector-waves"></div>
         <TitleText title="Vraag Offerte aan">
             <p>We reageren zo snel mogelijk op uw aanvraag.</p>
         </TitleText>
@@ -22,6 +24,7 @@ import ContactForm from "../components/ContactForm.vue";
         </TwoColumnTextImage>
     </section>
     <section id="info">
+        <div class="vector"></div>
         <div class="container d-lg-none">
             <h2 class="mb-4">Contact</h2>
         </div>

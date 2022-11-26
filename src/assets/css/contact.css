@@ -24,6 +24,48 @@ section#info {
 @media (min-width: 992px) {
     section#hero {
         margin-bottom: 70px;
+        position: relative;
+    }
+    section#intro {
+        position: relative;
+    }
+    section#intro .vector {
+        position: absolute;
+        background-image: url("./../vectors/popcornbeker.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 205px;
+        height: 227px;
+        top: -60px;
+        z-index: -1;
+    }
+    section#intro .vector-waves {
+        position: absolute;
+        background-image: url("./../vectors/waves.svg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 214px;
+        height: 96px;
+        top: 350px;
+        right: 0;
+        z-index: -1;;
+    }
+    section#info {
+        position: relative;
+    }
+    section#info .vector {
+        position: absolute;
+        background-image: url("./../vectors/striped-circle.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 200px;
+        height: 200px;
+        top: 150px;
+        right: 0;
+        z-index: -1;
     }
 }
 

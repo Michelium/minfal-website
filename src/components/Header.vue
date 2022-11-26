@@ -128,6 +128,9 @@ nav {
     border-bottom: 1px solid #ffffff33;
     display: flex;
 }
+nav .navbar-brand svg {
+    width: 200px;
+}
 nav button.navbar-toggler,
 nav button.navbar-toggler:focus {
     border: none;
@@ -149,6 +152,9 @@ nav ul.navbar-nav {
         row-gap: 5px;
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+    nav .navbar-brand svg {
+        width: unset;
     }
 }
 @media (min-width: 1400px) {

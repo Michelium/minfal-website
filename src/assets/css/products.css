@@ -8,14 +8,23 @@ section#intro {
 section#popcornbekers {
     margin-bottom: 80px;
 }
-section#products {
-    margin-bottom: 140px;
-}
 section#nacho-trays {
     margin-bottom: 70px;
+    padding-top: 200px;
+    position: relative;
+    background-image: url("./../vectors/products-top-background.png");
+    background-repeat: no-repeat;
+    background-position: top -125px center;
+    background-size: cover;
 }
 section#soft-drink {
-    margin-bottom: 70px;
+    padding-top: 200px;
+    padding-bottom: 230px;
+    position: relative;
+    background-image: url("./../vectors/products-bottom-background.png");
+    background-repeat: no-repeat;
+    background-position: bottom -215px center;
+    background-size: cover;
 }
 section#soft-drink .card {
     background: #FFFFFF;
@@ -78,12 +87,56 @@ ul li span {
     section#hero {
         margin-bottom: 70px;
     }
+    section#intro {
+        position: relative;
+    }
+    section#intro .vector {
+        position: absolute;
+        background-image: url("./../vectors/popcornbeker.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 205px;
+        height: 227px;
+        top: -60px;
+        z-index: -1;
+    }
+    section#nacho-trays {
+        background-position: top center;
+    }
+    section#soft-drink {
+        background-position: bottom center;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+    section#intro .vector-waves {
+        position: absolute;
+        background-image: url("./../vectors/waves.svg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 214px;
+        height: 96px;
+        top: 350px;
+        right: 0;
+        z-index: -1;;
+    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+    section#nacho-trays .vector {
+        position: absolute;
+        background-image: url("./../vectors/striped-circle.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 200px;
+        height: 200px;
+        top: 150px;
+        right: 0;
+        z-index: 1;
+    }
 }

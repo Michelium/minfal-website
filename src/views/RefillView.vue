@@ -12,6 +12,8 @@ import ContactFooter from "../components/ContactFooter.vue";
         <Hero title="Minfal Refill"/>
     </section>
     <section id="minfal-refill-stations">
+        <div class="vector"></div>
+        <div class="vector-waves"></div>
         <TitleText title="Minfal Refill Stations">
             <p>Verras uw bezoekers met een popcorn- en/of dranken Refill Station. Ideaal voor in Bioscopen, pretparken en stadions.
                 Minfal levert Refill Stations op maat en specifiek naar uw wensen. </p>
@@ -34,6 +36,8 @@ import ContactFooter from "../components/ContactFooter.vue";
         </TwoColumnTextImage>
     </section>
     <section id="types">
+        <div class="vector"></div>
+        <div class="background-vector"></div>
         <TwoColumnTextImage image="refill-types.png" image-label="Impressie schets" :imageFirst="true">
             <h4 class="mt-4">Verschillende types.</h4>
             <p>De Refill Stations zijn er in allerlei groottes en types. Op basis van de grootte van uw locatie en uw popcornverkopen adviseert Minfal een bepaald type machine.

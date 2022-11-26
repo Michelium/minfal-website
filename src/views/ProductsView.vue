@@ -13,6 +13,8 @@ import Products from "../components/products/Products.vue";
         <Hero title="Onze Verpakkingen"/>
     </section>
     <section id="intro">
+        <div class="vector"></div>
+        <div class="vector-waves"></div>
         <TitleText title="Ons volledige assortiment verpakkingen">
             <p>Alle popcornbekers, nacho trays en chipsbakjes zijn maatwerk. Het definitieve formaat en de vormen staan nog niet vast en zijn op basis van uw wensen.</p>
             <p>De Frisdrank- en koffiebekers zijn wel standaard. Deze kunt u alleen bedrukken naar uw wens en in sommige gevallen kunt u ook een eigen kleur kiezen.</p>
@@ -27,6 +29,7 @@ import Products from "../components/products/Products.vue";
         <Products/>
     </section>
     <section id="nacho-trays">
+        <div class="vector"></div>
         <TwoColumnTextImage image="products-nacho-trays.png" :image-first="true" :image-bigger="false">
             <h2 class="mt-5  mt-lg-0">Nacho trays en chipsbakjes<br> (maatwerk)</h2>
             <p>Wij bieden ook unieke herbruikbare nacho-bakjes aan. Volledig herbruikbaar en passend in een circulair verpakkingssysteem.</p>

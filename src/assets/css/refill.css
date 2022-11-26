@@ -10,6 +10,19 @@ section#benefits {
 }
 section#types {
     margin-bottom: 60px;
+    position: relative;
+}
+section#types .background-vector {
+    position: absolute;
+    background-image: url("./../vectors/refill-circulair-backgroud.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    width: 750px;
+    max-width: 100vw;
+    height: 915px;
+    top: -100px;
+    z-index: -1;
 }
 section#contact-footer {
     margin-bottom: 60px;
@@ -40,9 +53,33 @@ ul li span {
     }
     section#minfal-refill-stations {
         margin-bottom: 50px;
+        position: relative;
+    }
+    section#minfal-refill-stations .vector {
+        position: absolute;
+        background-image: url("./../vectors/popcornbeker.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 205px;
+        height: 227px;
+        top: -60px;
+    }
+    section#minfal-refill-stations .vector-waves {
+        position: absolute;
+        background-image: url("./../vectors/waves.svg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 214px;
+        height: 96px;
+        top: 350px;
+        right: 0;
+        z-index: -1;;
     }
     section#benefits {
         margin-bottom: 80px;
+        position: relative;
     }
     section#types {
         margin-bottom: 100px;
@@ -55,4 +92,18 @@ ul li span {
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+}
+
+@media (min-width: 1700px) {
+    section#types .vector {
+        position: absolute;
+        background-image: url("./../vectors/striped-circle.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: contain;
+        width: 205px;
+        height: 227px;
+        top: 200px;
+        right: 0;
+    }
 }
