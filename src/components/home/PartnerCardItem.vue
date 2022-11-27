@@ -18,7 +18,7 @@ defineProps({
 
 <style scoped>
 div.card-item {
-    background-image: url("@/assets/images/partner-card-item-background.png");
+    background-image: url("@/assets/images/partner-card-item-background.webp");
     background-position: right 20px top 20px;
     background-size: 22px;
     background-repeat: no-repeat;

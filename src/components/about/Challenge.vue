@@ -8,7 +8,7 @@
                 <p>Bioscopen doen nog weinig aan duurzaamheid en dat zagen wij als een mooie uitdaging!</p>
             </div>
             <div class="col-12 col-lg-6 offset-xl-1 order-first order-lg-last d-flex flex-column justify-content-center">
-                <img src="@/assets/images/challenge-building.png" alt="Minfal bedrijfspand">
+                <img src="@/assets/images/challenge-building.webp" alt="Minfal bedrijfspand">
             </div>
         </div>
     </div>

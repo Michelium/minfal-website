@@ -22,9 +22,9 @@ defineProps({
                 <h2>{{ title }}</h2>
                 <p class="w-75">{{ text }}</p>
                 <a href="https://www.linkedin.com/company/minfal-b-v/" target="_blank">
-                    <img class="linked-button" src="@/assets/images/linkedin-button.png" alt="LinkedIn">
+                    <img class="linked-button" src="@/assets/images/linkedin-button.webp" alt="LinkedIn">
                 </a>
-                <img class="d-none d-lg-block left-vector" src="@/assets/images/contact-footer-vector.png" alt="">
+                <img class="d-none d-lg-block left-vector" src="@/assets/images/contact-footer-vector.webp" alt="">
             </div>
             <div class="col-12 col-lg-8">
                 <ContactForm :textarea-label="textareaLabel" />

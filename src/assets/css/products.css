@@ -12,7 +12,7 @@ section#nacho-trays {
     margin-bottom: 70px;
     padding-top: 200px;
     position: relative;
-    background-image: url("./../vectors/products-top-background.png");
+    background-image: url("./../vectors/products-top-background.webp");
     background-repeat: no-repeat;
     background-position: top -125px center;
     background-size: cover;
@@ -21,7 +21,7 @@ section#soft-drink {
     padding-top: 200px;
     padding-bottom: 230px;
     position: relative;
-    background-image: url("./../vectors/products-bottom-background.png");
+    background-image: url("./../vectors/products-bottom-background.webp");
     background-repeat: no-repeat;
     background-position: bottom -215px center;
     background-size: cover;
@@ -92,7 +92,7 @@ ul li span {
     }
     section#intro .vector {
         position: absolute;
-        background-image: url("./../vectors/popcornbeker.png");
+        background-image: url("./../vectors/popcornbeker.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
@@ -129,7 +129,7 @@ ul li span {
 @media (min-width: 1400px) {
     section#nacho-trays .vector {
         position: absolute;
-        background-image: url("./../vectors/striped-circle.png");
+        background-image: url("./../vectors/striped-circle.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;

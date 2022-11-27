@@ -11,19 +11,19 @@ import ProductRangeItem from './ProductRangeItem.vue';
         </div>
         <div class="row mt-3 mt-lg-5">
             <div class="col">
-                <ProductRangeItem title="Popcornbekers" image="popcornbekers.png"/>
+                <ProductRangeItem title="Popcornbekers" image="popcornbekers.webp"/>
             </div>
             <div class="col">
-                <ProductRangeItem title="Nacho Trays" image="nacho_trays.png"/>
+                <ProductRangeItem title="Nacho Trays" image="nacho_trays.webp"/>
             </div>
             <div class="col">
-                <ProductRangeItem title="Chipsbakjes" image="chipsbakjes.png"/>
+                <ProductRangeItem title="Chipsbakjes" image="chipsbakjes.webp"/>
             </div>
             <div class="col">
-                <ProductRangeItem title="Frisdrankbekers" image="frisdrankbekers.png"/>
+                <ProductRangeItem title="Frisdrankbekers" image="frisdrankbekers.webp"/>
             </div>
             <div class="col">
-                <ProductRangeItem title="Koffiebekers" image="koffiebekers.png"/>
+                <ProductRangeItem title="Koffiebekers" image="koffiebekers.webp"/>
             </div>
         </div>
         <button class="secondary">Bekijk het assortiment</button>

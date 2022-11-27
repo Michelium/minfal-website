@@ -11,7 +11,7 @@
                 </ul>
             </div>
             <div class="col-12 col-lg-7 mb-5 mb-lg-0types">
-                <img src="@/assets/images/circulair-bullets.png" alt="Popcorn in herbruikbare popcornbekers">
+                <img src="@/assets/images/circulair-bullets.webp" alt="Popcorn in herbruikbare popcornbekers">
             </div>
         </div>
     </div>

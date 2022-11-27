@@ -20,7 +20,7 @@ section#challenge .vector {
     height: 915px;
     top: 580px;
     z-index: -1;
-    background-image: url("./../vectors/about-challenge-left.png");
+    background-image: url("./../vectors/about-challenge-left.webp");
     background-repeat: no-repeat;
     background-position: top left; 
     background-size: contain;
@@ -63,7 +63,7 @@ section#contact-footer {
     }
     section#challenge .vector {
         top: 120px;
-        background-image: url("./../vectors/about-challenge-left.png"), url("./../vectors/striped-circle.png");
+        background-image: url("./../vectors/about-challenge-left.webp"), url("./../vectors/striped-circle.webp");
         background-repeat: no-repeat;
         background-position: top left, center right -15px;
         background-size: contain, 200px 200px;

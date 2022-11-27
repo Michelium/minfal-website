@@ -36,7 +36,7 @@ section#contact-footer {
     }
     section#sustainable-minfal .vector {
         position: absolute;
-        background-image: url("./../vectors/popcornbeker.png");
+        background-image: url("./../vectors/popcornbeker.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
@@ -56,10 +56,10 @@ section#contact-footer {
         padding-bottom: 160px;
         margin-bottom: 0;
         background-image: 
-                url("./../vectors/striped-circle.png"),
-                url("./../vectors/popcorn-popcornbeker-drink.png"),
-                url("./../vectors/popcorn-popcornbeker.png"),
-                url("./../vectors/popcorn-product-range-top.png");
+                url("./../vectors/striped-circle.webp"),
+                url("./../vectors/popcorn-popcornbeker-drink.webp"),
+                url("./../vectors/popcorn-popcornbeker.webp"),
+                url("./../vectors/popcorn-product-range-top.webp");
         background-size:
                 200px 200px,
                 auto 172px,
@@ -74,7 +74,7 @@ section#contact-footer {
     }
     section#product-range-text {
         padding-bottom: 500px;
-        background-image: url("./../vectors/popcorn-product-range-text.png");
+        background-image: url("./../vectors/popcorn-product-range-text.webp");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top

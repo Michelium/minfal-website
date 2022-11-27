@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 background-image">
-                <img class="d-lg-none mb-5" src="@/assets/images/benefits-popcorn.png" alt="Oranje popcornbeker Minfal">
-                <img class="d-none d-lg-block" src="@/assets/images/benefits-popcorn-desktop.png" alt="Oranje popcornbeker Minfal">
+                <img class="d-lg-none mb-5" src="@/assets/images/benefits-popcorn.webp" alt="Oranje popcornbeker Minfal">
+                <img class="d-none d-lg-block" src="@/assets/images/benefits-popcorn-desktop.webp" alt="Oranje popcornbeker Minfal">
             </div>
             <div class="col-12 col-lg-5 offset-lg-1G">
                 <strong>Voordelen</strong>
@@ -24,7 +24,7 @@ div.background-image {
     display: flex;
     justify-content: center;
     /*width: 100%;*/
-    /*background-image: url("@/assets/images/benefits-popcorn-desktop.png");*/
+    /*background-image: url("@/assets/images/benefits-popcorn-desktop.webp");*/
     /*background-size: cover;*/
     position: relative;
 }

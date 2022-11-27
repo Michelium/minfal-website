@@ -3,24 +3,24 @@
         <div class="row">
             <div class="col-12 col-xl-10 offset-xl-1">
                 <div class="card-wrapper first">
-                    <img class="vector" src="@/assets/vectors/six-squares.png" alt="vector">
-                    <img src="@/assets/images/product-range-basic.png" alt="Basic popcornbeker">
+                    <img class="vector" src="@/assets/vectors/six-squares.webp" alt="vector">
+                    <img src="@/assets/images/product-range-basic.webp" alt="Basic popcornbeker">
                     <div class="card">
                         <h2>Basic</h2>
                         <p>onbedrukt, alleen gravure aan 1 zijde</p>
                     </div>
                 </div>
                 <div class="card-wrapper second">
-                    <img class="vector" src="@/assets/vectors/six-squares.png" alt="vector">
-                    <img src="@/assets/images/product-range-plus.png" alt="Plus popcornbeker">
+                    <img class="vector" src="@/assets/vectors/six-squares.webp" alt="vector">
+                    <img src="@/assets/images/product-range-plus.webp" alt="Plus popcornbeker">
                     <div class="card">
                         <h2>Plus</h2>
                         <p>1-4 zijden full color bedrukt met artwork (zoals logo)</p>
                     </div>
                 </div>
                 <div class="card-wrapper third">
-                    <img class="vector" src="@/assets/vectors/six-squares.png" alt="vector">
-                    <img src="@/assets/images/product-range-pro.png" alt="Pro popcornbeker">
+                    <img class="vector" src="@/assets/vectors/six-squares.webp" alt="vector">
+                    <img src="@/assets/images/product-range-pro.webp" alt="Pro popcornbeker">
                     <div class="card">
                         <h2>Pro</h2>
                         <p>4 zijden bedrukt, full color (ook foto’s mogelijk)</p>

@@ -50,7 +50,7 @@ button {
     border: none;
     border-radius: 30px;
     border-bottom: 7px solid var(--primary);
-    background-image: url("@/assets/images/home-hero-main-image.png");
+    background-image: url("@/assets/images/home-hero-main-image.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80% 80%;
@@ -59,7 +59,7 @@ button {
 }
 .background-image {
     position: absolute;
-    background-image: url("@/assets/vectors/popcornbeker.png");
+    background-image: url("@/assets/vectors/popcornbeker.webp");
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;

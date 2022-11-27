@@ -14,7 +14,7 @@ section#collection-station {
 }
 section#collection-station .background-vector {
     position: absolute;
-    background-image: url("./../vectors/refill-circulair-backgroud.png");
+    background-image: url("./../vectors/refill-circulair-backgroud.webp");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
@@ -49,7 +49,7 @@ section#contact-footer {
     }
     section#intro .vector {
         position: absolute;
-        background-image: url("./../vectors/popcornbeker.png");
+        background-image: url("./../vectors/popcornbeker.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
@@ -71,7 +71,7 @@ section#contact-footer {
     }
     section#dishwasher .vector {
         position: absolute;
-        background-image: url("./../vectors/striped-circle.png");
+        background-image: url("./../vectors/striped-circle.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;

@@ -4,14 +4,14 @@
     <div class="container">
         <div class="row mx-0">
             <div class="col-12 text-center px-0 position-relative">
-                <img class="d-none d-lg-block vector" src="@/assets/vectors/popcornbeker.png" alt="Vector">
-                <img class="banner" src="@/assets/images/about-cinema-banner.png" alt="Bioscoop banner Daniel en Leendert-Jan">
+                <img class="d-none d-lg-block vector" src="@/assets/vectors/popcornbeker.webp" alt="Vector">
+                <img class="banner" src="@/assets/images/about-cinema-banner.webp" alt="Bioscoop banner Daniel en Leendert-Jan">
             </div>
         </div>
         <div class="row mx-0 mt-5">
             <div class="col-12 col-lg-6 ps-0 pe-0 pe-lg-3 mb-4 mb-lg-0">
                 <div class="card">
-                    <div><img src="@/assets/images/personalities-daniel.png" alt="Daniel"></div>
+                    <div><img src="@/assets/images/personalities-daniel.webp" alt="Daniel"></div>
                     <div>
                         <strong>Daniel</strong>
                         <p class="mt-3">Een stukje tekst over de beste webdeveloper in de wereld en omstreken</p>
@@ -20,7 +20,7 @@
             </div>
             <div class="col-12 col-lg-6 pe-0 ps-0 ps-lg-3">
                 <div class="card">
-                    <div><img src="@/assets/images/personalities-leendert-jan.png" alt="Leendert-Jan"></div>
+                    <div><img src="@/assets/images/personalities-leendert-jan.webp" alt="Leendert-Jan"></div>
                     <div>
                         <strong>Leendert-Jan</strong>
                         <p class="mt-3">Een stukje tekst over de beste webdeveloper in de wereld en omstreken</p>

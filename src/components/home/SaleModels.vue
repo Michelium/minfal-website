@@ -21,12 +21,12 @@
                 <button class="secondary align-self-center align-self-lg-start">Meer over Minfal Refill</button>
             </div>
             <div class="col-12 col-lg-7 order-first order-lg-last my-3 mt-lg-0">
-                <img src="@/assets/images/sale-models-refill-station.png" alt="Minfal Refill Stations">
+                <img src="@/assets/images/sale-models-refill-station.webp" alt="Minfal Refill Stations">
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-lg-7 pe-lg-5">
-                <img src="@/assets/images/sale-models-circulair.png" alt="Minfal Circulair">
+                <img src="@/assets/images/sale-models-circulair.webp" alt="Minfal Circulair">
             </div>
             <div class="col-12 col-lg-5 d-flex flex-column">
                 <h4>Minfal Circulair</h4>

@@ -14,7 +14,7 @@ section#types {
 }
 section#types .background-vector {
     position: absolute;
-    background-image: url("./../vectors/refill-circulair-backgroud.png");
+    background-image: url("./../vectors/refill-circulair-backgroud.webp");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
@@ -57,7 +57,7 @@ ul li span {
     }
     section#minfal-refill-stations .vector {
         position: absolute;
-        background-image: url("./../vectors/popcornbeker.png");
+        background-image: url("./../vectors/popcornbeker.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
@@ -97,7 +97,7 @@ ul li span {
 @media (min-width: 1700px) {
     section#types .vector {
         position: absolute;
-        background-image: url("./../vectors/striped-circle.png");
+        background-image: url("./../vectors/striped-circle.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;

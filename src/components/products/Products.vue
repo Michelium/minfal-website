@@ -3,19 +3,19 @@
         <div class="row">
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="@/assets/images/products-basic.png" alt="rijtje met Basic popcornbekers">
+                    <img src="@/assets/images/products-basic.webp" alt="rijtje met Basic popcornbekers">
                     <div class="card-footer"><p>Basic</p></div>
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="@/assets/images/products-plus.png" alt="rijtje met Plus popcornbekers">
+                    <img src="@/assets/images/products-plus.webp" alt="rijtje met Plus popcornbekers">
                     <div class="card-footer"><p>Plus</p></div>
                 </div>
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <img src="@/assets/images/products-pro.png" alt="rijtje met Pro popcornbekers">
+                    <img src="@/assets/images/products-pro.webp" alt="rijtje met Pro popcornbekers">
                     <div class="card-footer"><p>Pro</p></div>
                 </div>
             </div>

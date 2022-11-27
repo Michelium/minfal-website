@@ -5,7 +5,7 @@ import PartnerCardItem from './PartnerCardItem.vue';
 <template>
     <div class="container">
         <div class="card">
-            <img class="vector" src="@/assets/vectors/six-squares.png" alt="vector">
+            <img class="vector" src="@/assets/vectors/six-squares.webp" alt="vector">
             <div class="row">
                 <div class="col-12 col-lg-4 d-flex flex-column">
                     <p class="card-title">Ga het avontuur aan met Minfal als betrouwbare partner.</p>
@@ -39,7 +39,7 @@ import PartnerCardItem from './PartnerCardItem.vue';
 
 <style scoped>
 div.card {
-    background-image: url("@/assets/images/number-card-background.png");
+    background-image: url("@/assets/images/number-card-background.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

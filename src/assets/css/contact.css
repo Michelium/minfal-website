@@ -14,7 +14,7 @@ section#info {
 }
 section#info .background-vector {
     position: absolute;
-    background-image: url("./../vectors/contact-left-background.png");
+    background-image: url("./../vectors/contact-left-background.webp");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: contain;
@@ -45,7 +45,7 @@ section#info .background-vector {
     }
     section#intro .vector {
         position: absolute;
-        background-image: url("./../vectors/popcornbeker.png");
+        background-image: url("./../vectors/popcornbeker.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
@@ -68,7 +68,7 @@ section#info .background-vector {
     }
     section#info .vector {
         position: absolute;
-        background-image: url("./../vectors/striped-circle.png");
+        background-image: url("./../vectors/striped-circle.webp");
         background-repeat: no-repeat;
         background-position: top left;
         background-size: contain;
