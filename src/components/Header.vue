@@ -6,7 +6,12 @@ import {RouterLink} from "vue-router";
 import {ref} from "vue";
 
 var menuToggle = ref(false);
-var w = window;
+function toggleMenu() {
+    if (window.innerWidth > 992) return;
+    
+    const elem = document.getElementById('hamburger-toggle');
+    elem.click();
+}
 </script>
 
 <template>
@@ -17,31 +22,32 @@ var w = window;
                     <Logo/>
                 </a>
             </RouterLink>
-            <button @click="menuToggle  = !menuToggle" ref="hamburgerToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation">
+            <button @click="menuToggle = !menuToggle" ref="hamburgerToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation"
+                    id="hamburger-toggle">
                 <Hamburger v-if="!menuToggle" id="hamburger"/>
-                <Close  v-if="menuToggle" id="close"/>
+                <Close v-if="menuToggle" id="close"/>
             </button>
             <div class="navbar-collapse collapse" id="navbar" style="">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                    <li class="nav-item" @click="toggleMenu">
                         <RouterLink class="router-link" to="/">Home</RouterLink>
                     </li>
-                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                    <li class="nav-item" @click="toggleMenu">
                         <RouterLink class="router-link" to="/over-ons">Over ons</RouterLink>
                     </li>
-                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                    <li class="nav-item" @click="toggleMenu">
                         <RouterLink class="router-link" to="/popcornbeker">Popcornbeker</RouterLink>
                     </li>
-                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                    <li class="nav-item" @click="toggleMenu">
                         <RouterLink class="router-link" to="/minfal-refill">Refill</RouterLink>
                     </li>
-                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                    <li class="nav-item" @click="toggleMenu">
                         <RouterLink class="router-link" to="/minfal-circulair">Circulair</RouterLink>
                     </li>
-                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                    <li class="nav-item" @click="toggleMenu">
                         <RouterLink class="router-link" to="/producten">Producten</RouterLink>
                     </li>
-                    <li class="nav-item" @click="w.innerWidth < 992 ? this.$refs.hamburgerToggle.click() : null">
+                    <li class="nav-item" @click="toggleMenu">
                         <RouterLink class="router-link" to="/contact">
                             <button class="primary text-uppercase">Contact</button>
                         </RouterLink>
@@ -54,7 +60,7 @@ var w = window;
 
 <style scoped>
 .navbar-collapse {
-    transition: .2s;    
+    transition: .2s;
 }
 
 /* Define the shape and color of the hamburger lines */
@@ -92,7 +98,7 @@ var w = window;
 }
 /* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
-    transform: translate(15%, 33%) rotate(-45deg) ;
+    transform: translate(15%, 33%) rotate(-45deg);
 }
 
 
@@ -102,7 +108,7 @@ var w = window;
 
 /* top line moves back to initial position and rotates back to 0 degrees */
 .navbar-toggler span:nth-child(1) {
-    transform: translate(0%, 0%) rotate(0deg) ;
+    transform: translate(0%, 0%) rotate(0deg);
 }
 /* middle line goes back to regular color and opacity */
 .navbar-toggler span:nth-child(2) {
@@ -110,9 +116,8 @@ var w = window;
 }
 /* bottom line goes back to initial position and rotates back to 0 degrees */
 .navbar-toggler span:nth-child(3) {
-    transform: translate(0%, 0%) rotate(0deg) ;
+    transform: translate(0%, 0%) rotate(0deg);
 }
-
 
 
 .container-fluid {
@@ -153,6 +158,7 @@ nav ul.navbar-nav {
         justify-content: space-around;
         flex-wrap: wrap;
     }
+
     nav .navbar-brand svg {
         width: unset;
     }
@@ -178,7 +184,7 @@ nav ul.navbar-nav {
 }
 .router-link.router-link-exact-active button {
     color: var(--white);
-    background-color: var(--secondary)!important;
+    background-color: var(--secondary) !important;
     border: none;
 }
 </style>
