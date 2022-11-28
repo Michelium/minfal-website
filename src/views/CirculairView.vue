@@ -16,8 +16,9 @@ import Bullets from "../components/circulair/Bullets.vue";
         <div class="vector"></div>
         <div class="vector-waves"></div>
         <TitleText title="Ga voor Circulair met Minfal.">
-            <p>Minfal Circulair is een innovatief concept waarbij herbruikbare verpakkingen na gebruik intern worden gewassen zodat deze vervolgens tientallen- tot honderden keren kunnen worden hergebruikt.</p>
             <p>Bespaar op verpakkingskosten door wegwerpverpakkingen te vervangen voor herbruikbare verpakkingen.</p>
+            <p>Minfal Circulair is een innovatief concept waarbij herbruikbare verpakkingen na gebruik intern worden gewassen zodat deze vervolgens tientallen- tot honderden keren kunnen worden hergebruikt. Het systeem wordt bijvoorbeeld ook al
+                toegepast bij alle 1500 McDonalds restaurants in Frankrijk: lever je verpakking in na gebruik, waarna het intern gewassen wordt om deze vervolgens weer aan te bieden. </p>
         </TitleText>
     </section>
     <section id="circulair">
@@ -37,7 +38,8 @@ import Bullets from "../components/circulair/Bullets.vue";
         <div class="vector"></div>
         <TwoColumnTextImage image="circulair-dishwasher.webp" :imageFirst="false" :imageBigger="false">
             <h2 class="mt-4 mt-lg-0">Industriële vaatwasmachine</h2>
-            <p>Om de herbruikbare verpakkingen te reinigen wordt (optioneel) een industriële vaatwasmachine meegeleverd. Minfal werkt samen met een fabrikant van industriële vaatwasmachine's die uitermate geschikt zijn voor de herbruikbare popcornbekers.</p>
+            <p>Om de herbruikbare verpakkingen te reinigen wordt (optioneel) een industriële vaatwasmachine meegeleverd. Minfal werkt samen met een fabrikant van industriële vaatwasmachine's die uitermate geschikt zijn voor de herbruikbare
+                popcornbekers.</p>
             <p>De vaatwasmachine's zijn er van klein naar groot. Zo zijn er voorladers (net als in de keuken thuis), maar ook doorschuif- en transportmachines.</p>
             <p>Minfal ontwikkelt samen met de fabrikant een wasprogramma op basis van het gewicht, de vorm en de dikte van de herbruikbare verpakkingen die u gewassen wilt hebben.</p>
         </TwoColumnTextImage>

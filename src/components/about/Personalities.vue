@@ -14,7 +14,7 @@
                     <div><img src="@/assets/images/personalities-daniel.webp" alt="Daniel"></div>
                     <div>
                         <strong>Daniel</strong>
-                        <p class="mt-3">Een stukje tekst over de beste webdeveloper in de wereld en omstreken</p>
+                        <p class="mt-3">“Het is mijn doel om bedrijven in de amusementssector te helpen aan unieke, verrassende verpakkingen die ondertussen de afvalstroom verminderen.”</p>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,8 @@
                     <div><img src="@/assets/images/personalities-leendert-jan.webp" alt="Leendert-Jan"></div>
                     <div>
                         <strong>Leendert-Jan</strong>
-                        <p class="mt-3">Een stukje tekst over de beste webdeveloper in de wereld en omstreken</p>
+                        <p class="mt-3">"De aanstaande transitie van wegwerp- naar herbruikbare verpakkingen vergt creativiteit van organisaties. Het geeft mij voldoening om klanten te helpen met het realiseren van maatwerkoplossingen.”
+                        </p>
                     </div>
                 </div>
             </div>

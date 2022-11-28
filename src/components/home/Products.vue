@@ -1,5 +1,4 @@
 <script setup>
-import ProductDescription from './../icons/ProductDescription.vue'
 </script>
 
 <template>
@@ -7,9 +6,8 @@ import ProductDescription from './../icons/ProductDescription.vue'
         <div class="row">
             <div class="col-12 d-flex flex-column align-items-center">
                 <h2>De herbruikbare popcornbeker is onze trots.</h2>
-                <h3>We wilden een iconisch en verrassend product verduurzamen. Daardoor hebben we de herbruikbare
-                    <wbr>
-                    popcornbeker ontwikkeld. Ontdek ons product door omlaag te scrollen!
+                <h3>We wilden een iconisch en verrassend product verduurzamen. Daardoor hebben we de herbruikbare popcornbeker ontwikkeld. Verkoop ‘m als merchandise en geef klanten korting op een refill, of ga voor een circulair systeem. Ontdek ons
+                    product door omlaag te scrollen!
                 </h3>
                 <img class="mt-4 desktop-image" src="@/assets/images/home-products-main-image.webp" id="desktop-image" alt="Drie popcornbekers van Minfal. Basic, plus en pro.">
                 <div class="row mt-4 text-center d-lg-none mobile-images">

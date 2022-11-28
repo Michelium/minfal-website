@@ -13,7 +13,7 @@
                 <div class="card">Alle kleuren mogelijk</div>
                 <div class="card">Uw formaat, logo en huisstijl</div>
                 <div class="card">Iconisch product</div>
-                <div class="card">Past in meerdere verkoopmodellen</div>
+                <div class="card">Verkoop als Merchandise of intern wassen</div>
             </div>
         </div>
     </div>

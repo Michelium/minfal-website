@@ -10,9 +10,9 @@
         </div>
         <div class="row refill-stations-row">
             <div class="col-12 col-lg-5 order-last order-lg-first d-flex flex-column">
-                <h4>Minfal Refill Stations</h4>
+                <h4>Minfal Refill Stations + Merchandise</h4>
                 <dl>
-                    <dt>Een bezoeker koopt een herbruikbare popcornbeker en wordt eigenaar (neemt 'm mee naar huis)</dt>
+                    <dt>Een bezoeker koopt een herbruikbare popcornbeker als merchandise en wordt eigenaar (neemt 'm mee naar huis)</dt>
                     <dt>De bezoeker krijgt korting op zijn Refill bij een volgende bezoek</dt>
                 </dl>
                 <p>Het is een trend: korting op je refill. AMC Cinemas doet dit al jaren, net als Starbucks, Albert Heijn, Hema, Kiosk en nog véél meer andere bedrijven. Het zorgt voor klantenbinding, het is duurzaam en het sluit aan op de
@@ -82,6 +82,7 @@ h5.sub-title {
     line-height: 33px;
     font-weight: 600;
     margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
 }
 button {
     margin-top: 40px;
@@ -89,7 +90,7 @@ button {
 
 @media (min-width: 992px) {
     h5.sub-title {
-        font-size: 26px;
+        font-size: 32px;
         line-height: 39px;
     }
 }

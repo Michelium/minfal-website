@@ -14,8 +14,8 @@
                     <p class="card-text">Elke popcornbeker kan meer dan <wbr> honderd wegwerpverpakkingen <wbr>besparen</p>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <p class="card-title">100.000</p>
-                    <p class="card-text">bezoekers eindigen hun bezoek door ons niet bij de prullenbak <wbr></p>
+                    <p class="card-title">100.000'EN</p>
+                    <p class="card-text">bezoekers hun bezoek niet laten eindigen bij de prullenbak is door onze producten mogelijk</p>
                 </div>
             </div>
         </div>

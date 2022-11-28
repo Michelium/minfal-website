@@ -27,7 +27,7 @@ import ContactFooter from "../components/ContactFooter.vue";
     </section>
     <section id="mission">
         <TitleText title="Onze Missie.">
-            <p>Ons doel is het reduceren van verpakkingsafval in de amusementssector doormiddel van het ontwikkelen van herbruikbare verpakkingen en circulaire verpakkingssystemen.</p>
+            <p>Onze missie is het reduceren van verpakkingsafval in de amusementssector doormiddel van het ontwikkelen van herbruikbare verpakkingen en circulaire verpakkingssystemen.</p>
         </TitleText>
     </section>
     <section id="number-card">

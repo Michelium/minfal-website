@@ -22,7 +22,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-12 d-flex justify-content-center">
-                <button class="secondary">Meer informatie</button>
+                <button class="secondary">Naar popcornbekers</button>
             </div>
         </div>
     </div>
