@@ -26,7 +26,9 @@ import ProductRangeItem from './ProductRangeItem.vue';
                 <ProductRangeItem title="Koffiebekers" image="koffiebekers.webp"/>
             </div>
         </div>
-        <button class="secondary">Bekijk het assortiment</button>
+        <RouterLink to="/producten">
+            <button class="secondary">Bekijk het assortiment</button>
+        </RouterLink>
     </div>
 </template>
 

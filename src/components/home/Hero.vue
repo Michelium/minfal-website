@@ -8,7 +8,7 @@
             <wbr>
             systemen voor bioscopen, theaters en meer...
         </h1>
-        <button class="secondary">Meer</button>
+        <a type="button" href="#products" class="secondary">Meer</a>
         <div class="card">
             <div class="background-image d-none d-lg-block"></div>
         </div>

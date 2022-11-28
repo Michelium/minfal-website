@@ -18,7 +18,7 @@ section#nacho-trays {
     background-size: cover;
 }
 section#soft-drink {
-    padding-top: 200px;
+    padding-top: 60px;
     padding-bottom: 230px;
     position: relative;
     background-image: url("./../vectors/products-bottom-background.webp");
@@ -61,6 +61,7 @@ section#soft-drink table td {
     line-height: 30px;
 }
 section#contact-footer {
+    margin-top: -40px;
     margin-bottom: 60px;
 }
 
@@ -72,6 +73,7 @@ ul li {
 ul li span {
     position: relative;
     top: -4.5px;
+    font-size: 16px;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -122,6 +124,9 @@ ul li span {
         top: 350px;
         right: 0;
         z-index: -1;;
+    }
+    ul li span {
+        font-size: 18px;
     }
 }
 

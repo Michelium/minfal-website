@@ -11,8 +11,8 @@
         <div class="row mx-0 mt-5">
             <div class="col-12 col-lg-6 ps-0 pe-0 pe-lg-3 mb-4 mb-lg-0">
                 <div class="card">
-                    <div><img src="@/assets/images/personalities-daniel.webp" alt="Daniel"></div>
-                    <div>
+                    <div class="d-flex align-items-center"><img src="@/assets/images/personalities-daniel.webp" alt="Daniel"></div>
+                    <div class="ps-lg-3">
                         <strong>Daniel</strong>
                         <p class="mt-3">“Het is mijn doel om bedrijven in de amusementssector te helpen aan unieke, verrassende verpakkingen die ondertussen de afvalstroom verminderen.”</p>
                     </div>
@@ -20,8 +20,8 @@
             </div>
             <div class="col-12 col-lg-6 pe-0 ps-0 ps-lg-3">
                 <div class="card">
-                    <div><img src="@/assets/images/personalities-leendert-jan.webp" alt="Leendert-Jan"></div>
-                    <div>
+                    <div class="d-flex align-items-center"><img src="@/assets/images/personalities-leendert-jan.webp" alt="Leendert-Jan"></div>
+                    <div class="ps-lg-3">
                         <strong>Leendert-Jan</strong>
                         <p class="mt-3">"De aanstaande transitie van wegwerp- naar herbruikbare verpakkingen vergt creativiteit van organisaties. Het geeft mij voldoening om klanten te helpen met het realiseren van maatwerkoplossingen.”
                         </p>
@@ -56,8 +56,8 @@ p {
     border: none;
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding: 40px 17px 40px 30px;
+    height: 100%;
 }
 .card img {
     max-height: 118px;

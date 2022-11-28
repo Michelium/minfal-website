@@ -45,7 +45,10 @@ const router = createRouter({
       name: 'contact',
       component: ContactView,
     }
-  ]
+  ],
+  scrollBehavior() {
+    document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+  }
 })
 
 export default router

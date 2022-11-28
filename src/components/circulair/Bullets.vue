@@ -31,5 +31,12 @@ ul li {
 ul li span {
     position: relative;
     top: -4.5px;
+    font-size: 16px;
+}
+
+@media(min-width: 994px) {
+    ul li span {
+        font-size: 18px;
+    }
 }
 </style>

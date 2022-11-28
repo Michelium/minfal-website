@@ -17,7 +17,7 @@ function toggleMenu() {
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Fifth navbar example">
         <div class="container-fluid">
-            <RouterLink class="router-link" to="/">
+            <RouterLink class="router-link no-active-line" to="/">
                 <a @click="toggleMenu" class="navbar-brand" href="/">
                     <Logo/>
                 </a>
@@ -48,7 +48,7 @@ function toggleMenu() {
                         <RouterLink class="router-link" to="/producten">Producten</RouterLink>
                     </li>
                     <li class="nav-item" @click="toggleMenu">
-                        <RouterLink class="router-link" to="/contact">
+                        <RouterLink class="router-link no-active-line" to="/contact">
                             <button class="primary text-uppercase">Contact</button>
                         </RouterLink>
                     </li>
@@ -186,5 +186,22 @@ nav ul.navbar-nav {
     color: var(--white);
     background-color: var(--secondary) !important;
     border: none;
+}
+
+@media(min-width: 994px) {
+    .router-link.router-link-exact-active {
+        position: relative;
+    }
+    .router-link.router-link-exact-active:not(.no-active-line):after {
+        position: absolute;
+        width: 4px;
+        height: 33px;
+        background-color: var(--white);
+        content: "";
+        left: 50%;
+        bottom: -41px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
 }
 </style>

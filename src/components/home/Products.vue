@@ -5,7 +5,7 @@
     <div class="container d-flex flex-column align-items-center">
         <div class="row">
             <div class="col-12 d-flex flex-column align-items-center">
-                <h2>De herbruikbare popcornbeker is onze trots.</h2>
+                <h2 class="mt-5 mt-lg-0">De herbruikbare popcornbeker is onze trots.</h2>
                 <h3>We wilden een iconisch en verrassend product verduurzamen. Daardoor hebben we de herbruikbare popcornbeker ontwikkeld. Verkoop ‘m als merchandise en geef klanten korting op een refill, of ga voor een circulair systeem. Ontdek ons
                     product door omlaag te scrollen!
                 </h3>
@@ -24,7 +24,9 @@
                         <h4>Pro</h4>
                     </div>
                 </div>
-                <button class="secondary">Meer informatie</button>
+                <RouterLink to="/popcornbeker">
+                    <button class="secondary">Meer informatie</button>
+                </RouterLink>
             </div>
         </div>
     </div>

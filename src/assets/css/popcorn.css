@@ -75,9 +75,9 @@ section#contact-footer {
     section#product-range-text {
         padding-bottom: 500px;
         background-image: url("./../vectors/popcorn-product-range-text.webp");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: top
+        background-position: top -120px right;
     }
     section#contact-footer {
         margin-top: -400px;

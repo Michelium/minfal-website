@@ -38,7 +38,7 @@ import ContactForm from "../components/ContactForm.vue";
             <a class="email" href="mailto:info@minfal.nl">info@minfal.nl</a>
             <p class="mt-4">Voor telefonisch contact kunt u een terugbelverzoek indienen via het contactformulier.</p>
             <p>* klanten krijgen een vaste contactpersoon.</p>
-            <a href="">Algemene voorwaarden</a>
+            <a href="/src/assets/pdf/algemene-voorwaarden.pdf" target="_blank">Algemene voorwaarden</a>
         </TwoColumnTextImage>
     </section>
 </template>

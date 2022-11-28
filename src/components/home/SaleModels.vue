@@ -18,7 +18,9 @@
                 <p>Het is een trend: korting op je refill. AMC Cinemas doet dit al jaren, net als Starbucks, Albert Heijn, Hema, Kiosk en nog véél meer andere bedrijven. Het zorgt voor klantenbinding, het is duurzaam en het sluit aan op de
                     zelfservice trend. Dit concept werkt voornamelijk bij de vaste bezoekers die jaarlijks meer dan tien keer langskomen.</p>
                 <p>Het kopen van een eigen popcornbeker is optioneel. Zo ligt de duurzame keuze bij de bezoeker. Het is een service dat de organisatie de duurzame optie aanbiedt.</p>
-                <button class="secondary align-self-center align-self-lg-start">Meer over Minfal Refill</button>
+                <RouterLink to="/minfal-refill">
+                    <button class="secondary align-self-center align-self-lg-start">Meer over Minfal Refill</button>
+                </RouterLink>
             </div>
             <div class="col-12 col-lg-7 order-first order-lg-last my-3 mt-lg-0">
                 <img src="@/assets/images/sale-models-refill-station.webp" alt="Minfal Refill Stations">
@@ -38,7 +40,9 @@
                 <h5 class="sub-title">Ga voor circulair.</h5>
                 <p>Een volledig circulair verpakkingssysteem waarbij de popcornbekers intern gewassen worden zodat deze vervolgens hergebruikt kunnen worden.</p>
                 <p>Minfal creëert daarnaast een speciale vaatwasmachine-configuratie op maat, afhankelijk van uw situatie. De popcornbekers krijgen ook een speciaal ontwikkeld wasprogramma voor optimale reiniging.</p>
-                <button class="secondary align-self-center align-self-lg-start">Ontdek Minfal Circulair</button>
+                <RouterLink to="/minfal-circulair">
+                    <button class="secondary align-self-center align-self-lg-start">Ontdek Minfal Circulair</button>
+                </RouterLink>
             </div>
         </div>
     </div>
