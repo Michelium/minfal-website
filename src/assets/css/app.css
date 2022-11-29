@@ -1,5 +1,9 @@
 @import 'base.css';
 
+html {
+  scroll-behavior: unset!important;
+}
+
 body {
   background-color: var(--light-white);
 }
