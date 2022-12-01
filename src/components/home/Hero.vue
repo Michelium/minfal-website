@@ -46,7 +46,8 @@ button {
 .card {
     display: flex;
     width: 100%;
-    aspect-ratio: 523 / 390;
+    aspect-ratio: 5 / 3;
+    object-fit: contain;
     border: none;
     border-radius: 30px;
     border-bottom: 7px solid var(--primary);
@@ -54,7 +55,6 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80% 80%;
-    object-fit: contain;
     margin: 2% 10px 25px 10px;
 }
 .background-image {
