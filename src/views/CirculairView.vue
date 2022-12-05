@@ -27,7 +27,9 @@ import Bullets from "../components/circulair/Bullets.vue";
     <section id="collection-station">
         <div class="background-vector"></div>
         <TwoColumnTextImage image="circulair-collection-stations.webp" :imageFirst="true" :imageBigger="false">
-            <h2 class="mt-4 mt-lg-0">Inzamelstations</h2>
+            <div class="d-flex">
+                <h2 class="mt-4 mt-lg-0">Inzamelstations.</h2>
+            </div>
             <p>Minfal levert zelf ontwikkelde inzamelstations bij Minfal Circulair. Bezoekers kunnen de herbruikbare popcornbekers hier inleveren na gebruik. Deze inzamelstations worden vervolgens geleegd zodat de verpakking gereinigd kunnen
                 worden.</p>
             <h4 class="mt-4">Maatwerk</h4>
@@ -37,7 +39,9 @@ import Bullets from "../components/circulair/Bullets.vue";
     <section id="dishwasher">
         <div class="vector"></div>
         <TwoColumnTextImage image="circulair-dishwasher.webp" :imageFirst="false" :imageBigger="false">
-            <h2 class="mt-4 mt-lg-0">Industriële vaatwasmachine</h2>
+            <div class="d-flex">
+                <h2 class="mt-4 mt-lg-0">Industriële vaatwasmachine.</h2>
+            </div>
             <p>Om de herbruikbare verpakkingen te reinigen wordt (optioneel) een industriële vaatwasmachine meegeleverd. Minfal werkt samen met een fabrikant van industriële vaatwasmachine's die uitermate geschikt zijn voor de herbruikbare
                 popcornbekers.</p>
             <p>De vaatwasmachine's zijn er van klein naar groot. Zo zijn er voorladers (net als in de keuken thuis), maar ook doorschuif- en transportmachines.</p>
@@ -46,6 +50,7 @@ import Bullets from "../components/circulair/Bullets.vue";
     </section>
     <section id="contact-footer">
         <ContactFooter
+            class="hide-green-circle"
             title="Laten we beginnen!"
             text="We komen graag op bezoek om vrijblijvend de mogelijkheden te bespreken."
             textarea-label="Bericht"/>

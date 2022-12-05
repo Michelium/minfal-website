@@ -3,8 +3,10 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h2 class="text-center">Onze verkoopmodellen</h2>
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                <div class="text-green-circle">
+                    <h2 class="text-center">Onze verkoopmodellen.</h2>
+                </div>
                 <h3 class="text-center">Een Refill- of Circulair concept</h3>
             </div>
         </div>

@@ -14,7 +14,7 @@ import ContactForm from "../components/ContactForm.vue";
     <section id="intro">
         <div class="vector"></div>
         <div class="vector-waves"></div>
-        <TitleText title="Vraag Offerte aan">
+        <TitleText title="Vraag Offerte aan.">
             <p>We reageren zo snel mogelijk op uw aanvraag.</p>
         </TitleText>
     </section>
@@ -30,7 +30,9 @@ import ContactForm from "../components/ContactForm.vue";
             <h2 class="mb-4">Contact</h2>
         </div>
         <TwoColumnTextImage image="contact-map.webp" :image-bigger="false">
-            <h2 class="d-none d-lg-block mb-4">Contact</h2>
+            <div class="d-flex">
+                <h2 class="d-none d-lg-block mb-4">Contact.</h2>
+            </div>
             <h4>Adres:</h4>
             <p class="mb-0">Turfschipper 62</p>
             <p>2292 JB Wateringen</p>

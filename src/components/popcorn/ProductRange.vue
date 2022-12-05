@@ -6,7 +6,7 @@
                     <img class="vector" src="@/assets/vectors/six-squares.webp" alt="vector">
                     <img src="@/assets/images/product-range-basic.webp" alt="Basic popcornbeker">
                     <div class="card">
-                        <h2>Basic</h2>
+                        <h2 class="hide-green-circle">Basic</h2>
                         <p>onbedrukt, alleen gravure aan 1 zijde</p>
                     </div>
                 </div>
@@ -14,7 +14,7 @@
                     <img class="vector" src="@/assets/vectors/six-squares.webp" alt="vector">
                     <img src="@/assets/images/product-range-plus.webp" alt="Plus popcornbeker">
                     <div class="card">
-                        <h2>Plus</h2>
+                        <h2 class="hide-green-circle">Plus</h2>
                         <p>1-4 zijden full color bedrukt met artwork (zoals logo)</p>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                     <img class="vector" src="@/assets/vectors/six-squares.webp" alt="vector">
                     <img src="@/assets/images/product-range-pro.webp" alt="Pro popcornbeker">
                     <div class="card">
-                        <h2>Pro</h2>
+                        <h2 class="hide-green-circle">Pro</h2>
                         <p>4 zijden bedrukt, full color (ook foto’s mogelijk)</p>
                         <p>Maximale marketingmogelijkheden</p>
                         <p>Verschillende bedrukkingen/artworks per zijde mogelijk</p>

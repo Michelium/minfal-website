@@ -14,7 +14,7 @@ import ContactFooter from "../components/ContactFooter.vue";
     <section id="minfal-refill-stations">
         <div class="vector"></div>
         <div class="vector-waves"></div>
-        <TitleText title="Minfal Refill Stations">
+        <TitleText title="Minfal Refill Stations.">
             <p>Verras uw bezoekers met een popcorn- en/of dranken Refill Station. Ideaal voor in Bioscopen, pretparken en stadions.
                 Minfal levert Refill Stations op maat en specifiek naar uw wensen. </p>
         </TitleText>
@@ -49,6 +49,7 @@ import ContactFooter from "../components/ContactFooter.vue";
     </section>
     <section id="contact-footer">
         <ContactFooter
+            class="hide-green-circle"
             title="Laten we beginnen!"
             text="We komen graag op bezoek om vrijblijvend de mogelijkheden te bespreken."
             textarea-label="Bericht"/>

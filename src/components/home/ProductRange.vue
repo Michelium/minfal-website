@@ -6,7 +6,7 @@ import ProductRangeItem from './ProductRangeItem.vue';
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Ons volledige herbruikbare assortiment</h2>
+                <h2 class="text-center text-lg-start">Ons volledige herbruikbare assortiment.</h2>
             </div>
         </div>
         <div class="row mt-3 mt-lg-5 justify-content-center">

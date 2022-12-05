@@ -35,6 +35,7 @@ import ContactFooter from "../components/ContactFooter.vue";
     </section>
     <section id="contact-footer">
         <ContactFooter
+            class="hide-green-circle"
             title="Laten we beginnen!"
             text="We komen graag op bezoek om vrijblijvend de mogelijkheden te bespreken."
             textarea-label="Bericht"/>

@@ -2,7 +2,7 @@
 import { onMounted } from 'vue'
 
 onMounted(() => {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    document.querySelectorAll('button[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
 
@@ -21,7 +21,7 @@ onMounted(() => {
             <wbr>
             systemen voor bioscopen, theaters en meer...
         </h1>
-        <a type="button" href="#products" class="secondary">Meer</a>
+        <button type="button" href="#products" class="button secondary">Meer</button>
         <div class="card">
             <div class="background-image d-none d-lg-block"></div>
         </div>

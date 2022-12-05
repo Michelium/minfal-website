@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 col-xl-5 order-last order-lg-first mt-5 mt-lg-0 text-center text-lg-start">
-                <h2>We houden van uitdaging.</h2>
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <h2>We houden van uitdaging.</h2>
+                </div>
                 <p>Tijdens onze studie Technische Bedrijfskunde in Delft is het idee ontstaan om een verrassend product te verduurzamen. Het idee was eerst een herbruikbaar ijsbakje, maar na een een bezoekje aan de bioscoop kwam er een veel leuker
                     idee naar voren: een herbruikbare popcornbeker. </p>
                 <p>Bioscopen werken nog niet echt met herbruikbare verpakkingen en dat zagen wij als een mooie uitdaging!</p>
