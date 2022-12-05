@@ -1,9 +1,8 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { onMounted } from 'vue'
 
 onMounted(() => {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        console.log(anchor)
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
 
@@ -13,24 +12,6 @@ onMounted(() => {
         });
     });
 })
-</script>
-
-<script>
-let anchorlinks = document.querySelectorAll('a[href^="#"]')
-console.log(anchorlinks)
-
-for (let item of anchorlinks) { // relitere 
-    item.addEventListener('click', (e)=> {
-        let hashval = item.getAttribute('href')
-        let target = document.querySelector(hashval)
-        target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        })
-        history.pushState(null, null, hashval)
-        e.preventDefault()
-    })
-}
 </script>
 
 <template>
