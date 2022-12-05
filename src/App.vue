@@ -8,7 +8,9 @@ import Footer from './components/Footer.vue';
     <section id="header">
         <Header/>
     </section>
-    <RouterView/>
+    <main>
+        <RouterView/>
+    </main>
     <section id="footer">
         <Footer/>
     </section>

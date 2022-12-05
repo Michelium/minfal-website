@@ -1,4 +1,36 @@
 <script setup>
+import { ref, onMounted } from 'vue'
+
+onMounted(() => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        console.log(anchor)
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+})
+</script>
+
+<script>
+let anchorlinks = document.querySelectorAll('a[href^="#"]')
+console.log(anchorlinks)
+
+for (let item of anchorlinks) { // relitere 
+    item.addEventListener('click', (e)=> {
+        let hashval = item.getAttribute('href')
+        let target = document.querySelector(hashval)
+        target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })
+        history.pushState(null, null, hashval)
+        e.preventDefault()
+    })
+}
 </script>
 
 <template>
@@ -84,19 +116,19 @@ button {
         background-size: 100%;
         background-position: top left;
     }
-    
+
     .mobile-header-vector {
         display: none;
     }
-    
+
     h1 {
         margin-top: 40px;
     }
-    
+
     button {
         margin-top: 30px;
     }
-    
+
     .card {
         height: 100%;
         width: unset;
