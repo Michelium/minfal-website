@@ -76,6 +76,20 @@ dl dt:before {
     top: 0;
     font: 600 50px/1 Oswald Sans-Serif;
     color: var(--primary);
+    z-index: 2;
+}
+dl dt:after {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 22px;
+    z-index: 1;
+    background-image: url("@/assets/vectors/sale-models-green-circle.svg");
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
 }
 dl dd {
     margin: 0 0 50px 0;
